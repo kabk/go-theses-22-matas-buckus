@@ -130,21 +130,22 @@ line-height: 0.8em;
 
 .ABS{
   width:100%;
-  height:50em;
+  height:66em;
   background-color:  #D8D9D8;
-  margin-top:29em;
+  margin-top:0em;
   position:relative;
   display:block;
 }
 
 #absimg{
-  width:25%;
-top:8em;
+  width:20%;
+top:15em;
   margin-right:auto;
   margin-left:auto;
+  margin-top:auto;
   position:relative;
   display:block;
-  transform: rotate(2deg)
+
 }
 
 .bodytext1{
@@ -285,10 +286,20 @@ width:90%;
   font-size:0.414083793255em;
   width: 90%;
   margin-top: 55em;
+
 /* transform: rotate(2deg) */
 }
 
-
+#ref1::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  height: 20px;
+  width: 100%;
+  left: 0;
+  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/23618/rip.svg) bottom;
+  background-size:200%;
+}
 
 
 
@@ -316,7 +327,6 @@ background-color:#D8D9D8;
 width:14.5896869848%;
 float:right;
 top:70em;
-
 margin-top: -0.6%;
 }
 
@@ -333,15 +343,7 @@ article {
 top:5em;
 }
 
-article::after {
-  content: "";
-  position: absolute;
-  top: 100%;
-  height: 20px;
-  width: 100%;
-  left: 0;
-  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/23618/rip.svg) bottom;
-}
+
 
 
 
