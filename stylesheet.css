@@ -3828,27 +3828,16 @@ top:5em;
 /* MOBILE RESPONSIVENESS */
 @media only screen and (max-width: 880px) {
 
-
-
-header{
-  font-size:1em;
-  width:100%;
+html{
+  background-color:#D8D9D8;
 }
 
-p{
-font-size:0.8em;
-line-height:190%;
+body{
+  display:none;
 }
 
-img{
-  width:100%
-}
-
-#main_content{
-  text-align:left;
-  float:none;
-  position:absolute;
-  width:99%;
+head{
+display:none;
 }
 
 }
