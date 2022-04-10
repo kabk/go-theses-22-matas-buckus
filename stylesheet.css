@@ -193,7 +193,7 @@ height:60em;
   display:block;
   margin-left: auto;
   margin-right: auto;
-  filter: saturate(110%);
+  filter: saturate(115%);
 }
 
 .titletext{
@@ -241,7 +241,7 @@ margin-left:74.5em;
   display: block;
   width:20%;
   margin-left:20em;
-  filter: saturate(110%);
+  filter: saturate(115%);
   margin-top:9em;
 }
 
@@ -251,7 +251,7 @@ margin-left:74.5em;
   width:20%;
   margin-top:0em;
   margin-left:41.7em;
-  filter: saturate(110%);
+  filter: saturate(115%);
   margin-top:9em;
 }
 
@@ -261,7 +261,7 @@ margin-left:74.5em;
   width:20%;
   margin-top:0em;
   margin-left:63.4em;
-  filter: saturate(110%);
+  filter: saturate(115%);
   margin-top:9em;
 }
 
