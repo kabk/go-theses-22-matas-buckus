@@ -1,0 +1,4634 @@
+@font-face {
+font-family: 'Arial-Narrow';
+src: url('Arial-Narrow.eot?#iefix') format('embedded-opentype'),
+		 url('Arial-Narrow.woff') format('woff'),
+		 url('Arial-Narrow.ttf')  format('truetype')
+
+}
+
+@font-face {
+font-family: 'IBMPlexMono-ExtraLight';
+src: url('IBMPlexMono-ExtraLight.eot?#iefix') format('embedded-opentype'),
+     url('IBMPlexMono-ExtraLight.woff') format('woff'),
+     url('IBMPlexMono-ExtraLight.ttf')  format('truetype')
+}
+
+@font-face {
+font-family: 'IBMPlexMono-Light';
+src: url('IBMPlexMono-Light.eot?#iefix') format('embedded-opentype'),
+     url('IBMPlexMono-Light.woff') format('woff'),
+     url('IBMPlexMono-Light.ttf')  format('truetype')
+}
+
+@font-face {
+font-family: 'IBMPlexMono-LightItalic';
+src: url('IBMPlexMono-LightItalic.eot?#iefix') format('embedded-opentype'),
+		 url('IBMPlexMono-LightItalic.woff') format('woff'),
+		 url('IBMPlexMono-LightItalic.ttf')  format('truetype')
+	 }
+
+	 @font-face {
+	 font-family: 'MinionPro-Regular';
+	 src: url('MinionPro-Regular.eot?#iefix') format('embedded-opentype'),
+	 		 url('MinionPro-Regular.woff') format('woff'),
+	 		 url('MinionPro-Regular.ttf')  format('truetype')
+	 	 }
+
+		 /*** Works on common browsers ***/
+::selection {
+    background:rgba(216, 217, 216, 0.99);
+    color: #D8D9D8;
+}
+
+/*** Mozilla based browsers ***/
+::-moz-selection {
+    background-color: #D8D9D8;
+    color:  #D8D9D8;
+}
+
+/***For Other Browsers ***/
+::-o-selection {
+	background-color: #D8D9D8;
+	color:  #D8D9D8;
+}
+
+::-ms-selection {
+	background-color:#D8D9D8;
+	color:  #D8D9D8;
+}
+
+/*** For Webkit ***/
+::-webkit-selection {
+	background-color: #D8D9D8;
+	color:  #D8D9D8;
+}
+
+
+/* TYPE */
+
+	 p{
+	 display:inline;
+	 margin-top:1em;
+	 width:50%;
+
+	 font-family:'IBMPlexMono-ExtraLight';
+	 color:#333333;
+	 background-color:white;
+	 font-size:1em;
+	 padding: 0.266em;
+	 line-height: 1.82em;
+	 letter-spacing:0.05em;
+	 }
+
+
+	 hw{
+		 font-family:'Arial-Narrow';
+ 		background-color: white;
+ 		color: black;
+ 		display:inline;
+ 		font-size:10em;
+ 		margin-bottom:50%;
+ 		margin-top:50%;
+			}
+
+		hg{
+		font-family:'Arial-Narrow';
+		background-color: #00B700;
+		color: white;
+		display:inline;
+		font-size:10em;
+		margin-bottom:50%;
+		margin-top:50%;
+			}
+
+	 hc12{
+		font-family:'Arial-Narrow';
+		background-color: white;
+		display:inline;
+		font-size:2em;
+		color:black;
+			}
+
+		p1{
+		 background-color:#00B700;
+		 padding: 0.27em;
+		 line-height: 1.82em;
+		 letter-spacing:0.05em;
+		 color:white;
+		 font-family:'IBMPlexMono-ExtraLight';
+			}
+
+
+			hg{
+			font-family:'Arial-Narrow';
+			background-color: #00B700;
+			color: white;
+			display:inline;
+			font-size:10em;
+			margin-bottom:50%;
+			margin-top:50%;
+				}
+
+
+					ph{
+			      background-color:#D8D9D8;
+			      padding: 0.27em;
+			      line-height: 1.82em;
+			      letter-spacing:0.05em;
+			      color:#333333;
+			       font-family:'IBMPlexMono-Lightitalic';
+
+			    }
+
+					pc{
+					  font-family:'Arial-Narrow';
+					  background-color: #004FFF;
+					  color: white;
+					  display:inline;
+					  font-size:10em;
+					  margin-bottom:50%;
+					  margin-top:50%;
+					}
+
+					p2{
+			      background-color:#004FFF;
+			      padding: 0.27em;
+			      line-height: 1.82em;
+			      letter-spacing:0.05em;
+			      color:white;
+			       font-family:'IBMPlexMono-ExtraLight';
+
+			    }
+
+					pb{
+					  font-family:'Arial-Narrow';
+					  background-color: #FFD600;
+					  color: black;
+					  display:inline;
+					  font-size:10em;
+					  margin-bottom:50%;
+					  margin-top:50%;
+					}
+
+					p3{
+						background-color:#FFD600;
+						padding: 0.27em;
+						line-height: 1.82em;
+						letter-spacing:0.05em;
+						color:#333333;
+						 font-family:'IBMPlexMono-ExtraLight';
+
+					}
+
+					py{
+					  font-family:'Arial-Narrow';
+					  background-color: #D10000;
+					  color: white;
+					  display:inline;
+					  font-size:10em;
+					  margin-bottom:50%;
+					  margin-top:50%;
+					}
+
+					p4{
+						background-color:#D10000;
+						padding: 0.27em;
+						line-height: 1.82em;
+						letter-spacing:0.05em;
+						color:white;
+						 font-family:'IBMPlexMono-ExtraLight';
+
+					}
+
+
+
+/* UNIVERSAL SETTINGS */
+
+	img {
+	  -webkit-user-drag: none;
+	  -khtml-user-drag: none;
+	  -moz-user-drag: none;
+	  -o-user-drag: none;
+	  user-drag: none;
+	}
+
+	 #img{
+	     width:100%;
+
+	 }
+
+	 body {
+	 	margin:0em;
+		max-width: 100% !important;
+	 		}
+
+	 html{
+		background-color:#D8D9D8;
+		max-width: 100% !important;
+		cursor:none;
+			}
+
+
+
+   .dec{
+	  display: flex;
+			}
+
+	 .container {
+		width: 100%;
+			}
+
+	 header{
+		background-color:#D8D9D8;
+		padding: 10px;
+			}
+
+	 footer {
+		max-width:100%;
+		background-color:blue;
+		padding: 10px;
+			}
+
+	 #heading{
+		text-align:center;
+		margin-top:auto;
+		padding:1em;
+			}
+
+	 article {
+		margin-right:auto;
+		margin-left:auto;
+		background-color: white ;
+		padding: 10px;
+		position: relative;
+		top:5em;
+			}
+
+			.figmob{
+				display:none;
+			}
+
+			.sfigmob{
+				display:none;
+			}
+
+			.refsticky{
+				position:sticky;
+				top:0;
+
+			}
+
+			.left-div {
+				width:20%;
+				padding: 1%;
+				background-color: #D8D9D8;
+
+			}
+			.middle-div {
+				width: 60%;
+				text-align: justify;
+				padding: 0em;
+				background-color: #D8D9D8;
+			}
+			.right-div {
+				padding: 1%;
+				width: 20%;
+				background-color: #D8D9D8;
+			}
+
+			.right-divint {
+				padding: 1%;
+				width: 20%;
+				background-color: #D8D9D8;
+				height:139em;
+			}
+
+			.full-div {
+				width:100%;
+				padding: 0em;
+				background-color: #D8D9D8;
+			}
+
+
+
+/* TITLE PAGE */
+
+					#VS{
+						padding-top:5.4vw;
+						width:80%;
+						height:29vw;
+						position: relative;
+						display:block;
+						margin-right:auto;
+			 	 	 	margin-left:auto;
+						text-align:center;
+						background-color:white;
+						line-height:11.5vw;
+					}
+
+					#VS::after {
+				 	 content: "";
+				 	 position: absolute;
+				 	 top: 100%;
+				 	 height: 20px;
+				 	 width: 100%;
+				 	 left: 0;
+				 	 background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/23618/rip.svg) bottom;
+				 	 background-size:200%;
+				  }
+
+					pi{
+					font-family:'MinionPro-Regular';
+					color: #FFDA00;
+					font-size:24vw;
+						}
+
+						#htitleblue{
+							position:absolute;
+							display:block;
+							text-align: center;
+							transform: rotate(-5deg);
+							top:7vw;
+							left: 0;
+  						right: 0;
+  						margin-left: auto;
+  						margin-right: auto;
+
+						}
+
+						pv{
+						  font-family:'Arial-Narrow';
+						  background-color: #004FFF;
+						  color: white;
+						  display:inline;
+						  font-size:16vw;
+						}
+
+
+
+
+
+
+						.nav{
+							position:relative;
+							display:block;
+							width:100%;
+						}
+
+						.left-div-nav {
+							position:relative;
+							display:block;
+							margin-left:10vw;
+							width:26.6666666667%;
+							background-color: #D8D9D8;
+							height:18.5vw;
+						}
+
+						.middle-div-nav {
+							width: 26.6666666667%;
+							background-color: white;
+							height:7.6vw;
+							position:relative;
+							/* box-shadow: 0 0 0 1vw #DD000B; */
+						}
+
+
+						.right-div-nav {
+							width: 26.6666666667%;
+							background-color: #D8D9D8;
+							height:18.5vw;
+						}
+
+
+						/* TOOLS */
+
+
+
+						#w-square{
+							display:block;
+							position:absolute;
+							background-color: white;
+							width:18.5vw;
+							height:18.5vw;
+							left: 0;
+  						right: 0;
+							/* margin-left: auto;
+							margin-right: auto; */
+							float:left;
+						}
+
+						#g-square{
+							display:block;
+							position:absolute;
+							background-color: #00B700;
+							width:13vw;
+							height:13vw;
+							left: 0;
+  						right: 0;
+							top:2.75vw;
+							margin-left: auto;
+							margin-right: auto;
+							transform: rotate(45deg);
+						}
+
+						#g-square::after {
+						  content: "";
+						  position: absolute;
+							display:block;
+						  top: -0.5%;
+						  height: 10px;
+						  width: 101.5%;
+							left: 0;
+  						right: 0;
+							margin-left: auto;
+							margin-right: -0.1vw;
+						  background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/23618/rip.svg") bottom;
+						  background-size:500%;
+							color:black;
+						}
+
+						#ws-square{
+							display:block;
+							position:absolute;
+							background-color: white;
+							/* border: 0.3vw;
+							border-style: solid;
+							border-color: #D8D9D8; */
+							width:9vw;
+							height:9vw;
+							left: 0;
+  						right: 0;
+							top: 0;
+  						bottom: 0;
+							margin-top:auto;
+							margin-bottom:auto;
+							margin-left: auto;
+							margin-right: auto;
+						}
+
+						#t{
+							transform: rotate(-45deg);
+							width:6.77vw;
+							height:6.77vw;
+							display:block;
+							position:absolute;
+							left: 0;
+							right: 0;
+							top: 0;
+							bottom: 0;
+							margin-top:auto;
+							margin-bottom:3.3vw;
+							margin-left: auto;
+							margin-right: 5.943vw;
+							font-size:16.8vw;
+						}
+
+						pt{
+						font-family:'MinionPro-Regular';
+						color: #D8D9D8;
+							}
+
+
+							.ools{
+								position:absolute;
+								display:block;
+								width:auto;
+								height:auto;
+								margin-top:9.3vw;
+								right:0;
+								left:0;
+								text-align: center;
+							}
+
+								ho{
+						 		 font-family:'Arial-Narrow';
+						  		background-color: white;
+						  		color: black;
+						  		display:inline;
+						  		font-size:4.8vw;
+						 			}
+
+
+
+									/* TOTAL */
+
+									#wh-square{
+										position: relative;
+										display:block;
+										background-color: white;
+										width:26.6vw;
+										top:2vw;
+										/* margin-left: auto;
+										margin-right: auto; */
+										float:center;
+									}
+
+
+
+									.total{
+										position: absolute;
+										display:block;
+										margin-left: auto;
+										margin-right: auto;
+										top:-2vw;
+										right:0;
+										left:0;
+										text-align: center;
+									}
+
+									pto{
+									 font-family:'MinionPro-Regular';
+										color: #DD000B;
+										font-size:8.4vw;
+
+										}
+
+										.question{
+											position:absolute;
+											display:block;
+											width:auto;
+											height:auto;
+											top:5.55vw;
+											margin-bottom:auto;
+											right:0;
+											left:0;
+											text-align: center;
+											background-color: #D8D9D8;
+											box-shadow: 0 0 0 1.5vw white inset
+										}
+
+										.question::after {
+											content: "";
+											position: absolute;
+											display:block;
+											top: 0.3vw;
+											height: 20px;
+											width: 102%;
+											left: 0;
+											right: 0;
+											margin-left: auto;
+											margin-right: -0.1vw;
+											background: url("./ripgi.svg") bottom;
+											background-size:280%;
+											color:black;
+											transform:rotate(180deg);
+										}
+
+											que{
+									 		 font-family:'Arial-Narrow';
+									  		color: white;
+									  		font-size:9.6vw;
+									 			}
+
+
+												/* CONTROL */
+
+												#blu-square{
+													display:block;
+													position:absolute;
+													background-color: #004FFF;
+													width:15vw;
+													height:15vw;
+													left: 0vw;
+													right: 0;
+													top:0;
+													margin-left: auto;
+													margin-right:auto;
+													border-radius: 15vw;
+												}
+
+												#white-square{
+													display:block;
+													position:relative;
+													background-color: white;
+													width:19vw;
+													height:18.53vw;
+													left: 4vw;
+													right: 0;
+													top:0;
+													margin-left: auto;
+													margin-right:auto;
+												}
+
+												#whi-square{
+													display:block;
+													position:relative;
+													background-color: white;
+													width:18.8vw;
+													height:3.5vw;
+													left: 0;
+													right: 0;
+													top:-3.5vw;
+													margin-left: auto;
+													margin-right:auto;
+													float:right;
+
+												}
+
+												#whi-square::after {
+												  content: "";
+												  position: absolute;
+													display:block;
+												  top: 0;
+												  height: 10px;
+												  width: 101.5%;
+													left: 0;
+						  						right: 0;
+													margin-left: auto;
+													margin-right: -0.1vw;
+												  background: url("./ripg.svg") bottom;
+												  background-size:350%;
+													color:black;
+												}
+
+												.ntrol{
+													position: absolute;
+													display:block;
+													top:-0.95vw;
+													right:0;
+													left:0;
+													text-align: center;
+
+												}
+
+												pnt{
+												 	font-family:'MinionPro-Regular';
+													color: #004FFF;
+													font-size:5.3vw;
+													}
+
+													.co{
+														position:absolute;
+														display:block;
+														top:2vw;
+														bottom: 0;
+														left:0;
+														right:0;
+														margin-right: auto;
+														margin-left: auto;
+														text-align: center;
+													}
+
+													co{
+											 		 font-family:'Arial-Narrow';
+											  		background-color: white;
+											  		color: black;
+											  		display:inline;
+											  		font-size:9.6vw;
+											 			}
+
+/* NAME */
+
+.name{
+	width:100%;
+	margin-top:4vw;
+}
+
+.left-div-name {
+	position:relative;
+	display:block;
+	margin-left:10vw;
+	width:26.6666666667%;
+	background-color:white;
+	height:3vw;
+text-align: left;
+}
+
+.middle-div-name {
+	width: 26.6666666667%;
+	background-color: white;
+	height:3vw;
+	position:relative;
+	display:block;
+	text-align: center;
+}
+
+
+.right-div-name {
+	width: 26.6666666667%;
+	background-color:white;
+	height:3vw;
+	position:relative;
+	display:block;
+	text-align: right;
+}
+
+
+.desc{
+	width:80%;
+	margin-top:0vw;
+margin-right: auto;
+margin-left: auto;
+
+}
+
+.desc-div {
+	width: 100%;
+	background-color: white;
+	height:8.3vw;
+	position:relative;
+	display:block;
+	text-align:center;
+}
+
+pgb{
+display:inline;
+margin-top:1em;
+width:50%;
+
+font-family:'IBMPlexMono-ExtraLight';
+color:#333333;
+background-color:#D8D9D8;
+font-size:1em;
+padding: 0.266em;
+line-height: 1.82em;
+letter-spacing:0.05em;
+}
+
+pbo{
+display:inline;
+margin-top:1em;
+width:50%;
+
+font-family:'IBMPlexMono-Light';
+color:#333333;
+background-color:#D8D9D8;
+font-size:1em;
+padding: 0.266em;
+line-height: 1.82em;
+letter-spacing:0.05em;
+}
+
+
+/* NAVIGATION */
+
+.navig{
+	width:100%;
+	margin-top:0vw;
+}
+
+.left-div-navig {
+	position:relative;
+	display:block;
+	margin-left:10vw;
+	width:26.6666666667%;
+	background-color:white;
+	height:14vw;
+text-align: center;
+}
+
+.middle-div-navig {
+	width: 26.6666666667%;
+	background-color: white;
+	height:14vw;
+	position:relative;
+	display:block;
+	text-align: center;
+}
+
+
+.right-div-navig {
+	width: 26.6666666667%;
+	background-color:white;
+	height:14vw;
+	position:relative;
+	display:block;
+	text-align: center;
+}
+
+nvgh{
+display:inline;
+margin-top:1em;
+width:50%;
+
+font-family:'IBMPlexMono-Light';
+color:white;
+background-color:#00B700;
+font-size:1em;
+padding: 0.266em;
+line-height: 1.82em;
+letter-spacing:0.05em;
+}
+
+nvbh{
+display:inline;
+margin-top:1em;
+width:50%;
+
+font-family:'IBMPlexMono-Light';
+color:white;
+background-color:#004FFF;
+font-size:1em;
+padding: 0.266em;
+line-height: 1.82em;
+letter-spacing:0.05em;
+}
+
+nvrh{
+display:inline;
+margin-top:1em;
+width:50%;
+
+font-family:'IBMPlexMono-Light';
+color:white;
+background-color:#DD000B;
+font-size:1em;
+padding: 0.266em;
+line-height: 1.82em;
+letter-spacing:0.05em;
+}
+
+nvyh{
+display:inline;
+margin-top:1em;
+width:50%;
+
+font-family:'IBMPlexMono-Light';
+color:#333333;
+background-color:#FFDA00;
+font-size:1em;
+padding: 0.266em;
+line-height: 1.82em;
+letter-spacing:0.05em;
+}
+
+a{
+	text-decoration:none;
+}
+
+
+.navigb{
+	width:100%;
+	margin-top:1vw;
+}
+
+.full-div-navig {
+	position:relative;
+	display:block;
+	margin-left:10vw;
+	width:80%;
+	background-color:white;
+	height:8vw;
+text-align: center;
+}
+
+.naviga{
+	width:100%;
+	margin-top:0vw;
+}
+
+.full-div-naviga {
+	position:relative;
+	display:block;
+	margin-left:10vw;
+	width:80%;
+	background-color:white;
+	height:3.4vw;
+text-align: center;
+}
+
+
+
+/* ABS + INTRODUCTION */
+		#habstract{
+			position:relative;
+			margin-right:auto;
+ 	 	 	margin-left:auto;
+			text-align:center;
+			transform: rotate(2deg);
+			padding:5em;
+			padding-top:6vw;
+
+		}
+
+		#hintro{
+			position:relative;
+			margin-right:auto;
+			margin-left:auto;
+			text-align:center;
+			transform: rotate(-2deg);
+			padding-top:5em;
+			padding-bottom:5em;
+		}
+
+
+
+/* INTRODUCTION	 IMAGES */
+
+		#fig1{
+	 	 background-color: white ;
+	 	 padding: 1em;
+	 	 float:center;
+	 	 position: relative;
+	 	 width:85%;
+	 	 font-size:0.6em;
+	 	 text-align:center;
+	 	 line-height:2.5em;
+	 	 margin-right:auto;
+	 	 margin-left:auto;
+	  }
+	  #fig1::after {
+	 	 content: "";
+	 	 position: absolute;
+	 	 top: 100%;
+	 	 height: 20px;
+	 	 width: 100%;
+	 	 left: 0;
+	 	 background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/23618/rip.svg) bottom;
+	 	 background-size:200%;
+	  }
+
+		#fig2{
+	 	 background-color: white ;
+	 	 padding: 1em;
+	 	 float:center;
+	 	 position: relative;
+	 	 width:85%;
+	 	 font-size:0.6em;
+	 	 text-align:center;
+	 	 line-height:2.5em;
+	 	 margin-right:auto;
+	 	 margin-left:auto;
+		 top:0em;
+	  }
+	  #fig2::after {
+	 	 content: "";
+	 	 position: absolute;
+	 	 top: 100%;
+	 	 height: 20px;
+	 	 width: 100%;
+	 	 left: 0;
+	 	 background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/23618/rip.svg) bottom;
+	 	 background-size:200%;
+	  }
+
+		#fig3{
+	 	 background-color: white ;
+	 	 padding: 1em;
+	 	 float:center;
+	 	 position: relative;
+	 	 width:85%;
+	 	 font-size:0.6em;
+	 	 text-align:center;
+	 	 line-height:2.5em;
+	 	 margin-right:auto;
+	 	 margin-left:auto;
+		 top:5em;
+	  }
+	  #fig3::after {
+	 	 content: "";
+	 	 position: absolute;
+	 	 top: 100%;
+	 	 height: 20px;
+	 	 width: 100%;
+	 	 left: 0;
+	 	 background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/23618/rip.svg) bottom;
+	 	 background-size:200%;
+	  }
+
+		#fig4{
+	 	 background-color: white ;
+	 	 padding: 1em;
+	 	 float:center;
+	 	 position: relative;
+	 	 width:85%;
+	 	 font-size:0.6em;
+	 	 text-align:center;
+	 	 line-height:2.5em;
+	 	 margin-right:auto;
+	 	 margin-left:auto;
+		 top:10em;
+	  }
+	  #fig4::after {
+	 	 content: "";
+	 	 position: absolute;
+	 	 top: 100%;
+	 	 height: 20px;
+	 	 width: 100%;
+	 	 left: 0;
+	 	 background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/23618/rip.svg) bottom;
+	 	 background-size:200%;
+	  }
+
+		#fig5{
+	 	 background-color: white ;
+	 	 padding: 1em;
+	 	 float:center;
+	 	 position: relative;
+	 	 width:85%;
+	 	 font-size:0.6em;
+	 	 text-align:center;
+	 	 line-height:2.5em;
+	 	 margin-right:auto;
+	 	 margin-left:auto;
+		 top:15em;
+	  }
+	  #fig5::after {
+	 	 content: "";
+	 	 position: absolute;
+	 	 top: 100%;
+	 	 height: 20px;
+	 	 width: 100%;
+	 	 left: 0;
+	 	 background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/23618/rip.svg) bottom;
+	 	 background-size:200%;
+	  }
+
+		#fig6{
+	 	 background-color: white ;
+	 	 padding: 1em;
+	 	 float:center;
+	 	 position: relative;
+	 	 width:85%;
+	 	 font-size:0.6em;
+	 	 text-align:center;
+	 	 line-height:2.5em;
+	 	 margin-right:auto;
+	 	 margin-left:auto;
+		 top:20em;
+	  }
+	  #fig6::after {
+	 	 content: "";
+	 	 position: absolute;
+	 	 top: 100%;
+	 	 height: 20px;
+	 	 width: 100%;
+	 	 left: 0;
+	 	 background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/23618/rip.svg) bottom;
+	 	 background-size:200%;
+	  }
+
+/* INTRODUCTION	 REFERENCES */
+
+		#ref1{
+		  font-size:0.414083793255em;
+		  width: 85%;
+		 	top: 0em;
+		}
+		#ref1::after {
+		  content: "";
+		  position: absolute;
+		  top: 100%;
+		  height: 20px;
+		  width: 100%;
+		  left: 0;
+		  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/23618/rip.svg) bottom;
+		  background-size:280%;
+		}
+
+		#ref2{
+		  font-size:0.414083793255em;
+		  width: 85%;
+		 	top: 5em;
+		}
+		#ref2::after {
+		  content: "";
+		  position: absolute;
+		  top: 100%;
+		  height: 20px;
+		  width: 100%;
+		  left: 0;
+		  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/23618/rip.svg) bottom;
+		  background-size:150%;
+		}
+
+		#ref3{
+		  font-size:0.414083793255em;
+		  width: 85%;
+		 	top: 10em;
+		}
+		#ref3::after {
+		  content: "";
+		  position: absolute;
+		  top: 100%;
+		  height: 20px;
+		  width: 100%;
+		  left: 0;
+		  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/23618/rip.svg) bottom;
+		  background-size:220%;
+		}
+
+		#ref4{
+		  font-size:0.414083793255em;
+		  width: 85%;
+		 	top: 15em;
+		}
+		#ref4::after {
+		  content: "";
+		  position: absolute;
+		  top: 100%;
+		  height: 20px;
+		  width: 100%;
+		  left: 0;
+		  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/23618/rip.svg) bottom;
+		  background-size:199%;
+		}
+
+		#ref5{
+		  font-size:0.414083793255em;
+		  width: 85%;
+		 	top: 20em;
+		}
+		#ref5::after {
+		  content: "";
+		  position: absolute;
+		  top: 100%;
+		  height: 20px;
+		  width: 100%;
+		  left: 0;
+		  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/23618/rip.svg) bottom;
+		  background-size:180%;
+		}
+
+
+
+/* C1 CONCEPTION */
+
+				#hchapter1{
+					position:relative;
+					display:block;
+					text-align: center;
+					transform: rotate(2deg);
+					padding-top:5em;
+					padding-bottom:5em;
+				}
+
+				.right-divc1 {
+					padding: 1%;
+					width: 20%;
+					background-color: #D8D9D8;
+					height:295em;
+				}
+
+		/* C1	 IMAGES */
+
+				#fig7{
+			 	 background-color: white ;
+			 	 padding: 1em;
+			 	 float:center;
+			 	 position: relative;
+			 	 width:85%;
+			 	 font-size:0.6em;
+			 	 text-align:center;
+			 	 line-height:2.5em;
+			 	 margin-right:auto;
+			 	 margin-left:auto;
+				 top:0em;
+			  }
+			  #fig7::after {
+			 	 content: "";
+			 	 position: absolute;
+			 	 top: 100%;
+			 	 height: 20px;
+			 	 width: 100%;
+			 	 left: 0;
+			 	 background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/23618/rip.svg) bottom;
+			 	 background-size:200%;
+			  }
+
+				#fig8{
+			 	 background-color: white ;
+			 	 padding: 1em;
+			 	 float:center;
+			 	 position: relative;
+			 	 width:38%;
+			 	 font-size:0.6em;
+			 	 text-align:center;
+			 	 line-height:2.5em;
+			 	 margin-left:1vw;
+				 top:5em;
+				 position: relative;
+				 display: inline-block;
+			  }
+			  #fig8::after {
+			 	 content: "";
+			 	 position: absolute;
+			 	 top: 100%;
+			 	 height: 20px;
+			 	 width: 100%;
+			 	 left: 0;
+			 	 background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/23618/rip.svg) bottom;
+			 	 background-size:200%;
+			  }
+
+				#fig9{
+			 	 background-color: white ;
+			 	 padding: 1em;
+			 	 float:center;
+			 	 position: relative;
+			 	 width:38%;
+			 	 font-size:0.6em;
+			 	 text-align:center;
+			 	 line-height:2.5em;
+			 	 margin-right:auto;
+			 	 margin-left:auto;
+				 top:5em;
+				 position: relative;
+				 display: inline-block;
+			  }
+			  #fig9::after {
+			 	 content: "";
+			 	 position: absolute;
+			 	 top: 100%;
+			 	 height: 20px;
+			 	 width: 100%;
+			 	 left: 0;
+			 	 background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/23618/rip.svg) bottom;
+			 	 background-size:200%;
+			  }
+
+				#fig10{
+			 	 background-color: white ;
+			 	 padding: 1em;
+			 	 float:center;
+			 	 position: relative;
+			 	 width:85%;
+			 	 font-size:0.6em;
+			 	 text-align:center;
+			 	 line-height:2.5em;
+			 	 margin-right:auto;
+			 	 margin-left:auto;
+				 top:10em;
+			  }
+			  #fig10::after {
+			 	 content: "";
+			 	 position: absolute;
+			 	 top: 100%;
+			 	 height: 20px;
+			 	 width: 100%;
+			 	 left: 0;
+			 	 background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/23618/rip.svg) bottom;
+			 	 background-size:200%;
+			  }
+
+				#fig11{
+			 	 background-color: white ;
+			 	 padding: 1em;
+			 	 float:center;
+			 	 position: relative;
+			 	 width:85%;
+			 	 font-size:0.6em;
+			 	 text-align:center;
+			 	 line-height:2.5em;
+			 	 margin-right:auto;
+			 	 margin-left:auto;
+				 top:15em;
+			  }
+			  #fig11::after {
+			 	 content: "";
+			 	 position: absolute;
+			 	 top: 100%;
+			 	 height: 20px;
+			 	 width: 100%;
+			 	 left: 0;
+			 	 background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/23618/rip.svg) bottom;
+			 	 background-size:200%;
+			  }
+
+				#fig12{
+			 	 background-color: white ;
+			 	 padding: 1em;
+			 	 float:center;
+			 	 position: relative;
+			 	 width:85%;
+			 	 font-size:0.6em;
+			 	 text-align:center;
+			 	 line-height:2.5em;
+			 	 margin-right:auto;
+			 	 margin-left:auto;
+				 top:20em;
+			  }
+			  #fig12::after {
+			 	 content: "";
+			 	 position: absolute;
+			 	 top: 100%;
+			 	 height: 20px;
+			 	 width: 100%;
+			 	 left: 0;
+			 	 background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/23618/rip.svg) bottom;
+			 	 background-size:200%;
+			  }
+
+				#fig13{
+			 	 background-color: white ;
+			 	 padding: 1em;
+			 	 float:center;
+			 	 position: relative;
+			 	 width:85%;
+			 	 font-size:0.6em;
+			 	 text-align:center;
+			 	 line-height:2.5em;
+			 	 margin-right:auto;
+			 	 margin-left:auto;
+				 top:25em;
+			  }
+			  #fig13::after {
+			 	 content: "";
+			 	 position: absolute;
+			 	 top: 100%;
+			 	 height: 20px;
+			 	 width: 100%;
+			 	 left: 0;
+			 	 background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/23618/rip.svg) bottom;
+			 	 background-size:200%;
+			  }
+
+				#fig14{
+			 	 background-color: white ;
+			 	 padding: 1em;
+			 	 float:center;
+			 	 position: relative;
+			 	 width:85%;
+			 	 font-size:0.6em;
+			 	 text-align:center;
+			 	 line-height:2.5em;
+			 	 margin-right:auto;
+			 	 margin-left:auto;
+				 top:30em;
+			  }
+			  #fig14::after {
+			 	 content: "";
+			 	 position: absolute;
+			 	 top: 100%;
+			 	 height: 20px;
+			 	 width: 100%;
+			 	 left: 0;
+			 	 background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/23618/rip.svg) bottom;
+			 	 background-size:200%;
+			  }
+
+				#fig15{
+			 	 background-color: white ;
+			 	 padding: 1em;
+			 	 float:center;
+			 	 position: relative;
+			 	 width:85%;
+			 	 font-size:0.6em;
+			 	 text-align:center;
+			 	 line-height:2.5em;
+			 	 margin-right:auto;
+			 	 margin-left:auto;
+				 top:35em;
+			  }
+			  #fig15::after {
+			 	 content: "";
+			 	 position: absolute;
+			 	 top: 100%;
+			 	 height: 20px;
+			 	 width: 100%;
+			 	 left: 0;
+			 	 background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/23618/rip.svg) bottom;
+			 	 background-size:200%;
+			  }
+
+				#fig16{
+			 	 background-color: white ;
+			 	 padding: 1em;
+			 	 float:center;
+			 	 position: relative;
+			 	 width:38%;
+			 	 font-size:0.6em;
+			 	 text-align:center;
+			 	 line-height:2.5em;
+			 	 margin-left:1vw;
+				 top:40em;
+				 position: relative;
+				 display: inline-block;
+			  }
+			  #fig16::after {
+			 	 content: "";
+			 	 position: absolute;
+			 	 top: 100%;
+			 	 height: 20px;
+			 	 width: 100%;
+			 	 left: 0;
+			 	 background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/23618/rip.svg) bottom;
+			 	 background-size:200%;
+			  }
+
+				#fig17{
+			 	 background-color: white ;
+			 	 padding: 1em;
+			 	 float:center;
+			 	 position: relative;
+			 	 width:38%;
+			 	 font-size:0.6em;
+			 	 text-align:center;
+			 	 line-height:2.5em;
+			 	 margin-right:auto;
+			 	 margin-left:auto;
+				 top:40em;
+				 position: relative;
+				 display: inline-block;
+			  }
+			  #fig17::after {
+			 	 content: "";
+			 	 position: absolute;
+			 	 top: 100%;
+			 	 height: 20px;
+			 	 width: 100%;
+			 	 left: 0;
+			 	 background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/23618/rip.svg) bottom;
+			 	 background-size:200%;
+			  }
+
+				#fig18{
+			 	 background-color: white ;
+			 	 padding: 1em;
+			 	 float:center;
+			 	 position: relative;
+			 	 width:85%;
+			 	 font-size:0.6em;
+			 	 text-align:center;
+			 	 line-height:2.5em;
+			 	 margin-right:auto;
+			 	 margin-left:auto;
+				 top:45em;
+			  }
+			  #fig18::after {
+			 	 content: "";
+			 	 position: absolute;
+			 	 top: 100%;
+			 	 height: 20px;
+			 	 width: 100%;
+			 	 left: 0;
+			 	 background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/23618/rip.svg) bottom;
+			 	 background-size:200%;
+			  }
+
+				#fig19{
+			 	 background-color: white ;
+			 	 padding: 1em;
+			 	 float:center;
+			 	 position: relative;
+			 	 width:85%;
+			 	 font-size:0.6em;
+			 	 text-align:center;
+			 	 line-height:2.5em;
+			 	 margin-right:auto;
+			 	 margin-left:auto;
+				 top:50em;
+			  }
+			  #fig19::after {
+			 	 content: "";
+			 	 position: absolute;
+			 	 top: 100%;
+			 	 height: 20px;
+			 	 width: 100%;
+			 	 left: 0;
+			 	 background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/23618/rip.svg) bottom;
+			 	 background-size:200%;
+			  }
+
+				#fig20{
+			 	 background-color: white ;
+			 	 padding: 1em;
+			 	 float:center;
+			 	 position: relative;
+			 	 width:38%;
+			 	 font-size:0.6em;
+			 	 text-align:center;
+			 	 line-height:2.5em;
+			 	 margin-left:1vw;
+				 top:55em;
+				 position: relative;
+				 display: inline-block;
+			  }
+			  #fig20::after {
+			 	 content: "";
+			 	 position: absolute;
+			 	 top: 100%;
+			 	 height: 20px;
+			 	 width: 100%;
+			 	 left: 0;
+			 	 background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/23618/rip.svg) bottom;
+			 	 background-size:200%;
+			  }
+
+				#fig21{
+				 background-color: white ;
+				 padding: 1em;
+				 float:center;
+				 position: relative;
+				 width:38%;
+				 font-size:0.6em;
+				 text-align:center;
+				 line-height:2.5em;
+				 margin-right:auto;
+				 margin-left:auto;
+				 top:55em;
+				 position: relative;
+				 display: inline-block;
+				}
+				#fig21::after {
+				 content: "";
+				 position: absolute;
+				 top: 100%;
+				 height: 20px;
+				 width: 100%;
+				 left: 0;
+				 background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/23618/rip.svg) bottom;
+				 background-size:200%;
+				}
+
+				#fig22{
+			 	 background-color: white ;
+			 	 padding: 1em;
+			 	 float:center;
+			 	 position: relative;
+			 	 width:85%;
+			 	 font-size:0.6em;
+			 	 text-align:center;
+				 margin-right:auto;
+				 margin-left:auto;
+			 	 line-height:2.5em;
+				 top:60em;
+			  }
+			  #fig22::after {
+			 	 content: "";
+			 	 position: absolute;
+			 	 top: 100%;
+			 	 height: 20px;
+			 	 width: 100%;
+			 	 left: 0;
+			 	 background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/23618/rip.svg) bottom;
+			 	 background-size:200%;
+			  }
+
+				#fig23{
+			 	 background-color: white ;
+			 	 padding: 1em;
+			 	 float:center;
+			 	 position: relative;
+			 	 width:85%;
+			 	 font-size:0.6em;
+			 	 text-align:center;
+			 	 line-height:2.5em;
+			 	 margin-right:auto;
+			 	 margin-left:auto;
+				 top:65em;
+			  }
+			  #fig23::after {
+			 	 content: "";
+			 	 position: absolute;
+			 	 top: 100%;
+			 	 height: 20px;
+			 	 width: 100%;
+			 	 left: 0;
+			 	 background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/23618/rip.svg) bottom;
+			 	 background-size:200%;
+			  }
+
+				#fig24{
+			 	 background-color: white ;
+			 	 padding: 1em;
+			 	 float:center;
+			 	 position: relative;
+			 	 width:38%;
+			 	 font-size:0.6em;
+			 	 text-align:center;
+			 	 line-height:2.5em;
+			 	 margin-left:1vw;
+				 top:70em;
+				 position: relative;
+				 display: inline-block;
+			  }
+			  #fig24::after {
+			 	 content: "";
+			 	 position: absolute;
+			 	 top: 100%;
+			 	 height: 20px;
+			 	 width: 100%;
+			 	 left: 0;
+			 	 background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/23618/rip.svg) bottom;
+			 	 background-size:200%;
+			  }
+
+				#fig25{
+			 	 background-color: white ;
+			 	 padding: 1em;
+			 	 float:center;
+			 	 position: relative;
+			 	 width:38%;
+			 	 font-size:0.6em;
+			 	 text-align:center;
+			 	 line-height:2.5em;
+			 	 margin-right:auto;
+			 	 margin-left:auto;
+				 top:70em;
+				 position: relative;
+				 display: inline-block;
+			  }
+			  #fig25::after {
+			 	 content: "";
+			 	 position: absolute;
+			 	 top: 100%;
+			 	 height: 20px;
+			 	 width: 100%;
+			 	 left: 0;
+			 	 background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/23618/rip.svg) bottom;
+			 	 background-size:200%;
+			  }
+
+				#fig26{
+			 	 background-color: white ;
+			 	 padding: 1em;
+			 	 float:center;
+			 	 position: relative;
+				 display: inline-block;
+			 	 width:38%;
+			 	 font-size:0.6em;
+			 	 text-align:center;
+			 	 line-height:2.5em;
+			 	 margin-left:1vw;
+				 top:75em;
+
+			  }
+			  #fig26::after {
+			 	 content: "";
+			 	 position: absolute;
+			 	 top: 100%;
+			 	 height: 20px;
+			 	 width: 100%;
+			 	 left: 0;
+			 	 background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/23618/rip.svg) bottom;
+			 	 background-size:200%;
+			  }
+
+				#fig27{
+			 	 background-color: white ;
+			 	 padding: 1em;
+			 	 float:center;
+			 	 position: relative;
+				 display: inline-block;
+			 	 width:38%;
+			 	 font-size:0.6em;
+			 	 text-align:center;
+			 	 line-height:2.5em;
+				 top:75em;
+				 margin-left:0vw;
+			  }
+			  #fig27::after {
+			 	 content: "";
+			 	 position: absolute;
+			 	 top: 100%;
+			 	 height: 20px;
+			 	 width: 100%;
+			 	 left: 0;
+			 	 background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/23618/rip.svg) bottom;
+			 	 background-size:200%;
+			  }
+
+				#fig28{
+			 	 background-color: white ;
+			 	 padding: 1em;
+			 	 float:center;
+			 	 position: relative;
+			 	 width:85%;
+			 	 font-size:0.6em;
+			 	 text-align:center;
+			 	 line-height:2.5em;
+			 	 margin-right:auto;
+			 	 margin-left:auto;
+				 top:80em;
+			  }
+			  #fig28::after {
+			 	 content: "";
+			 	 position: absolute;
+			 	 top: 100%;
+			 	 height: 20px;
+			 	 width: 100%;
+			 	 left: 0;
+			 	 background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/23618/rip.svg) bottom;
+			 	 background-size:200%;
+			  }
+
+		/* C1	 REFERENCES */
+
+		#ref6{
+			font-size:0.414083793255em;
+			width: 85%;
+			top: 0em;
+		}
+		#ref6::after {
+			content: "";
+			position: absolute;
+			top: 100%;
+			height: 20px;
+			width: 100%;
+			left: 0;
+			background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/23618/rip.svg) bottom;
+			background-size:178%;
+		}
+
+		#ref7{
+			font-size:0.414083793255em;
+			width: 85%;
+			top: 5em;
+		}
+		#ref7::after {
+			content: "";
+			position: absolute;
+			top: 100%;
+			height: 20px;
+			width: 100%;
+			left: 0;
+			background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/23618/rip.svg) bottom;
+			background-size:250%;
+		}
+
+		#ref8{
+			font-size:0.414083793255em;
+			width: 85%;
+			top:10em;
+		}
+		#ref8::after {
+			content: "";
+			position: absolute;
+			top: 100%;
+			height: 20px;
+			width: 100%;
+			left: 0;
+			background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/23618/rip.svg) bottom;
+			background-size:148%;
+		}
+
+		#ref9{
+			font-size:0.414083793255em;
+			width: 85%;
+			top:15em;
+		}
+		#ref9::after {
+			content: "";
+			position: absolute;
+			top: 100%;
+			height: 20px;
+			width: 100%;
+			left: 0;
+			background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/23618/rip.svg) bottom;
+			background-size:230%;
+		}
+
+		#ref10{
+			font-size:0.414083793255em;
+			width: 85%;
+			top:20em;
+		}
+		#ref10::after {
+			content: "";
+			position: absolute;
+			top: 100%;
+			height: 20px;
+			width: 100%;
+			left: 0;
+			background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/23618/rip.svg) bottom;
+			background-size:169%;
+		}
+
+		#ref11{
+			font-size:0.414083793255em;
+			width: 85%;
+			top:25em;
+		}
+		#ref11::after {
+			content: "";
+			position: absolute;
+			top: 100%;
+			height: 20px;
+			width: 100%;
+			left: 0;
+			background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/23618/rip.svg) bottom;
+			background-size:210%;
+		}
+
+		#ref12{
+			font-size:0.414083793255em;
+			width: 85%;
+			top:30em;
+		}
+		#ref12::after {
+			content: "";
+			position: absolute;
+			top: 100%;
+			height: 20px;
+			width: 100%;
+			left: 0;
+			background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/23618/rip.svg) bottom;
+			background-size:183%;
+		}
+
+		#ref13{
+			font-size:0.414083793255em;
+			width: 85%;
+			top:35em;
+		}
+		#ref13::after {
+			content: "";
+			position: absolute;
+			top: 100%;
+			height: 20px;
+			width: 100%;
+			left: 0;
+			background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/23618/rip.svg) bottom;
+			background-size:250%;
+		}
+
+		#ref14{
+			font-size:0.414083793255em;
+			width: 85%;
+			top:40em;
+		}
+		#ref14::after {
+			content: "";
+			position: absolute;
+			top: 100%;
+			height: 20px;
+			width: 100%;
+			left: 0;
+			background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/23618/rip.svg) bottom;
+			background-size:138%;
+		}
+
+		#ref15{
+			font-size:0.414083793255em;
+			width: 85%;
+			top:45em;
+		}
+		#ref15::after {
+			content: "";
+			position: absolute;
+			top: 100%;
+			height: 20px;
+			width: 100%;
+			left: 0;
+			background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/23618/rip.svg) bottom;
+			background-size:210%;
+		}
+
+		#ref16{
+			font-size:0.414083793255em;
+			width: 85%;
+			top:50em;
+		}
+		#ref16::after {
+			content: "";
+			position: absolute;
+			top: 100%;
+			height: 20px;
+			width: 100%;
+			left: 0;
+			background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/23618/rip.svg) bottom;
+			background-size:120%;
+		}
+
+		#ref17{
+			font-size:0.414083793255em;
+			width: 85%;
+			top:55em;
+		}
+		#ref17::after {
+			content: "";
+			position: absolute;
+			top: 100%;
+			height: 20px;
+			width: 100%;
+			left: 0;
+			background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/23618/rip.svg) bottom;
+			background-size:195%;
+		}
+
+		#ref18{
+			font-size:0.414083793255em;
+			width: 85%;
+			top:60em;
+		}
+		#ref18::after {
+			content: "";
+			position: absolute;
+			top: 100%;
+			height: 20px;
+			width: 100%;
+			left: 0;
+			background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/23618/rip.svg) bottom;
+			background-size:162%;
+		}
+
+		#ref19{
+			font-size:0.414083793255em;
+			width: 85%;
+			top:65em;
+		}
+		#ref19::after {
+			content: "";
+			position: absolute;
+			top: 100%;
+			height: 20px;
+			width: 100%;
+			left: 0;
+			background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/23618/rip.svg) bottom;
+			background-size:183%;
+		}
+
+		#ref20{
+			font-size:0.414083793255em;
+			width: 85%;
+			top:70em;
+		}
+		#ref20::after {
+			content: "";
+			position: absolute;
+			top: 100%;
+			height: 20px;
+			width: 100%;
+			left: 0;
+			background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/23618/rip.svg) bottom;
+			background-size:230%;
+		}
+
+		#ref21{
+			font-size:0.414083793255em;
+			width: 85%;
+			top:75em;
+		}
+		#ref21::after {
+			content: "";
+			position: absolute;
+			top: 100%;
+			height: 20px;
+			width: 100%;
+			left: 0;
+			background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/23618/rip.svg) bottom;
+			background-size:190%;
+		}
+
+		#ref22{
+			font-size:0.414083793255em;
+			width: 85%;
+			top:80em;
+		}
+		#ref22::after {
+			content: "";
+			position: absolute;
+			top: 100%;
+			height: 20px;
+			width: 100%;
+			left: 0;
+			background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/23618/rip.svg) bottom;
+			background-size:265%;
+		}
+
+		#ref23{
+			font-size:0.414083793255em;
+			width: 85%;
+			top:85em;
+		}
+		#ref23::after {
+			content: "";
+			position: absolute;
+			top: 100%;
+			height: 20px;
+			width: 100%;
+			left: 0;
+			background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/23618/rip.svg) bottom;
+			background-size:120%;
+		}
+
+		#ref24{
+			font-size:0.414083793255em;
+			width: 85%;
+			top:90em;
+		}
+		#ref24::after {
+			content: "";
+			position: absolute;
+			top: 100%;
+			height: 20px;
+			width: 100%;
+			left: 0;
+			background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/23618/rip.svg) bottom;
+			background-size:240%;
+		}
+
+		#ref25{
+			font-size:0.414083793255em;
+			width: 85%;
+			top:95em;
+		}
+		#ref25::after {
+			content: "";
+			position: absolute;
+			top: 100%;
+			height: 20px;
+			width: 100%;
+			left: 0;
+			background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/23618/rip.svg) bottom;
+			background-size:192%;
+		}
+
+		#ref26{
+			font-size:0.414083793255em;
+			width: 85%;
+			top:100em;
+		}
+		#ref26::after {
+			content: "";
+			position: absolute;
+			top: 100%;
+			height: 20px;
+			width: 100%;
+			left: 0;
+			background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/23618/rip.svg) bottom;
+			background-size:150%;
+		}
+
+		#ref27{
+			font-size:0.414083793255em;
+			width: 85%;
+			top:105em;
+		}
+		#ref27::after {
+			content: "";
+			position: absolute;
+			top: 100%;
+			height: 20px;
+			width: 100%;
+			left: 0;
+			background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/23618/rip.svg) bottom;
+			background-size:220%;
+		}
+
+		#ref28{
+			font-size:0.414083793255em;
+			width: 85%;
+			top:110em;
+		}
+		#ref28::after {
+			content: "";
+			position: absolute;
+			top: 100%;
+			height: 20px;
+			width: 100%;
+			left: 0;
+			background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/23618/rip.svg) bottom;
+			background-size:189%;
+		}
+
+/* C2 BIRTH*/
+
+				#hchapter2{
+					position:relative;
+					display:block;
+					text-align: center;
+					transform: rotate(-2deg);
+					padding-top:5em;
+					padding-bottom:5em;
+				}
+
+				.right-divc2 {
+					padding: 1%;
+					width: 20%;
+					background-color: #D8D9D8;
+					height:386em;
+				}
+
+		/* C2 IMAGES */
+
+				#fig29{
+				 background-color: white ;
+				 padding: 1em;
+				 float:center;
+				 position: relative;
+				 width:85%;
+				 font-size:0.6em;
+				 text-align:center;
+				 line-height:2.5em;
+				 margin-right:auto;
+				 margin-left:auto;
+				 top:0em;
+				}
+				#fig29::after {
+				 content: "";
+				 position: absolute;
+				 top: 100%;
+				 height: 20px;
+				 width: 100%;
+				 left: 0;
+				 background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/23618/rip.svg) bottom;
+				 background-size:200%;
+				}
+
+				#fig30{
+				 background-color: white ;
+				 padding: 1em;
+				 float:center;
+				 position: relative;
+				 width:85%;
+				 font-size:0.6em;
+				 text-align:center;
+				 line-height:2.5em;
+				 margin-right:auto;
+				 margin-left:auto;
+				 top:5em;
+				}
+				#fig30::after {
+				 content: "";
+				 position: absolute;
+				 top: 100%;
+				 height: 20px;
+				 width: 100%;
+				 left: 0;
+				 background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/23618/rip.svg) bottom;
+				 background-size:200%;
+				}
+
+				#fig31{
+				 background-color: white ;
+				 padding: 1em;
+				 float:center;
+				 position: relative;
+				 width:85%;
+				 font-size:0.6em;
+				 text-align:center;
+				 line-height:2.5em;
+				 margin-right:auto;
+				 margin-left:auto;
+				 top:10em;
+				}
+				#fig31::after {
+				 content: "";
+				 position: absolute;
+				 top: 100%;
+				 height: 20px;
+				 width: 100%;
+				 left: 0;
+				 background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/23618/rip.svg) bottom;
+				 background-size:200%;
+				}
+
+				#fig32{
+				 background-color: white ;
+				 padding: 1em;
+				 float:center;
+				 position: relative;
+				 width:85%;
+				 font-size:0.6em;
+				 text-align:center;
+				 line-height:2.5em;
+				 margin-right:auto;
+				 margin-left:auto;
+				 top:15em;
+				}
+				#fig32::after {
+				 content: "";
+				 position: absolute;
+				 top: 100%;
+				 height: 20px;
+				 width: 100%;
+				 left: 0;
+				 background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/23618/rip.svg) bottom;
+				 background-size:200%;
+				}
+
+				#fig33{
+				 background-color: white ;
+				 padding: 1em;
+				 float:center;
+				 position: relative;
+				 width:85%;
+				 font-size:0.6em;
+				 text-align:center;
+				 line-height:2.5em;
+				 margin-right:auto;
+				 margin-left:auto;
+				 top:20em;
+				}
+				#fig33::after {
+				 content: "";
+				 position: absolute;
+				 top: 100%;
+				 height: 20px;
+				 width: 100%;
+				 left: 0;
+				 background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/23618/rip.svg) bottom;
+				 background-size:200%;
+				}
+
+				#fig34{
+				 background-color: white ;
+				 padding: 1em;
+				 float:center;
+				 position: relative;
+				 width:85%;
+				 font-size:0.6em;
+				 text-align:center;
+				 line-height:2.5em;
+				 margin-right:auto;
+				 margin-left:auto;
+				 top:25em;
+				}
+				#fig34::after {
+				 content: "";
+				 position: absolute;
+				 top: 100%;
+				 height: 20px;
+				 width: 100%;
+				 left: 0;
+				 background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/23618/rip.svg) bottom;
+				 background-size:200%;
+				}
+
+				#fig35{
+				 background-color: white ;
+				 padding: 1em;
+				 float:center;
+				 position: relative;
+				 width:85%;
+				 font-size:0.6em;
+				 text-align:center;
+				 line-height:2.5em;
+				 margin-right:auto;
+				 margin-left:auto;
+				 top:30em;
+				}
+				#fig35::after {
+				 content: "";
+				 position: absolute;
+				 top: 100%;
+				 height: 20px;
+				 width: 100%;
+				 left: 0;
+				 background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/23618/rip.svg) bottom;
+				 background-size:200%;
+				}
+
+				#fig36{
+				 background-color: white ;
+				 padding: 1em;
+				 float:center;
+				 position: relative;
+				 width:85%;
+				 font-size:0.6em;
+				 text-align:center;
+				 line-height:2.5em;
+				 margin-right:auto;
+				 margin-left:auto;
+				 top:35em;
+				}
+				#fig36::after {
+				 content: "";
+				 position: absolute;
+				 top: 100%;
+				 height: 20px;
+				 width: 100%;
+				 left: 0;
+				 background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/23618/rip.svg) bottom;
+				 background-size:200%;
+				}
+
+				#fig37{
+				 background-color: white ;
+				 padding: 1em;
+				 float:center;
+				 position: relative;
+				 width:85%;
+				 font-size:0.6em;
+				 text-align:center;
+				 line-height:2.5em;
+				 margin-right:auto;
+				 margin-left:auto;
+				 top:40em;
+				}
+				#fig37::after {
+				 content: "";
+				 position: absolute;
+				 top: 100%;
+				 height: 20px;
+				 width: 100%;
+				 left: 0;
+				 background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/23618/rip.svg) bottom;
+				 background-size:200%;
+				}
+
+				#fig38{
+				 background-color: white ;
+				 padding: 1em;
+				 float:center;
+				 position: relative;
+				 width:85%;
+				 font-size:0.6em;
+				 text-align:center;
+				 line-height:2.5em;
+				 top:45em;
+				 margin-right:auto;
+				 margin-left:auto;
+				}
+				#fig38::after {
+				 content: "";
+				 position: absolute;
+				 top: 100%;
+				 height: 20px;
+				 width: 100%;
+				 left: 0;
+				 background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/23618/rip.svg) bottom;
+				 background-size:200%;
+				}
+
+				#fig39{
+				 background-color: white ;
+				 padding: 1em;
+				 float:center;
+				 position: relative;
+				 width:85%;
+				 font-size:0.6em;
+				 text-align:center;
+				 line-height:2.5em;
+				 margin-right:auto;
+				 margin-left:auto;
+				 top:50em;
+				}
+				#fig39::after {
+				 content: "";
+				 position: absolute;
+				 top: 100%;
+				 height: 20px;
+				 width: 100%;
+				 left: 0;
+				 background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/23618/rip.svg) bottom;
+				 background-size:200%;
+				}
+
+				#fig40{
+				 background-color: white ;
+				 padding: 1em;
+				 float:center;
+				 position: relative;
+				 width:85%;
+				 font-size:0.6em;
+				 text-align:center;
+				 line-height:2.5em;
+				 margin-right:auto;
+				 margin-left:auto;
+				 top:55em;
+				}
+				#fig40::after {
+				 content: "";
+				 position: absolute;
+				 top: 100%;
+				 height: 20px;
+				 width: 100%;
+				 left: 0;
+				 background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/23618/rip.svg) bottom;
+				 background-size:200%;
+				}
+
+				#fig41{
+				 background-color: white ;
+				 padding: 1em;
+				 float:center;
+				 position: relative;
+				 width:85%;
+				 font-size:0.6em;
+				 text-align:center;
+				 line-height:2.5em;
+				 margin-right:auto;
+				 margin-left:auto;
+				 top:60em;
+				}
+				#fig41::after {
+				 content: "";
+				 position: absolute;
+				 top: 100%;
+				 height: 20px;
+				 width: 100%;
+				 left: 0;
+				 background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/23618/rip.svg) bottom;
+				 background-size:200%;
+				}
+
+				#fig42{
+				 background-color: white ;
+				 padding: 1em;
+				 float:center;
+				 position: relative;
+				 width:85%;
+				 font-size:0.6em;
+				 text-align:center;
+				 line-height:2.5em;
+				 top:65em;
+				 margin-right:auto;
+				 margin-left:auto;
+				}
+				#fig42::after {
+				 content: "";
+				 position: absolute;
+				 top: 100%;
+				 height: 20px;
+				 width: 100%;
+				 left: 0;
+				 background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/23618/rip.svg) bottom;
+				 background-size:200%;
+				}
+
+				#fig43{
+				 background-color: white ;
+				 padding: 1em;
+				 float:center;
+				 position: relative;
+				 width:85%;
+				 font-size:0.6em;
+				 text-align:center;
+				 line-height:2.5em;
+				 margin-right:auto;
+				 margin-left:auto;
+				 top:70em;
+				}
+				#fig43::after {
+				 content: "";
+				 position: absolute;
+				 top: 100%;
+				 height: 20px;
+				 width: 100%;
+				 left: 0;
+				 background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/23618/rip.svg) bottom;
+				 background-size:200%;
+				}
+
+
+		/* C2 REFERENCES */
+
+		#ref29{
+			font-size:0.414083793255em;
+			width: 85%;
+			top: 0em;
+		}
+		#ref29::after {
+			content: "";
+			position: absolute;
+			top: 100%;
+			height: 20px;
+			width: 100%;
+			left: 0;
+			background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/23618/rip.svg) bottom;
+			background-size:178%;
+		}
+
+		#ref30{
+			font-size:0.414083793255em;
+			width: 85%;
+			top: 5em;
+		}
+		#ref30::after {
+			content: "";
+			position: absolute;
+			top: 100%;
+			height: 20px;
+			width: 100%;
+			left: 0;
+			background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/23618/rip.svg) bottom;
+			background-size:250%;
+		}
+
+		#ref31{
+			font-size:0.414083793255em;
+			width: 85%;
+			top:10em;
+		}
+		#ref31::after {
+			content: "";
+			position: absolute;
+			top: 100%;
+			height: 20px;
+			width: 100%;
+			left: 0;
+			background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/23618/rip.svg) bottom;
+			background-size:148%;
+		}
+
+		#ref32{
+			font-size:0.414083793255em;
+			width: 85%;
+			top:15em;
+		}
+		#ref32::after {
+			content: "";
+			position: absolute;
+			top: 100%;
+			height: 20px;
+			width: 100%;
+			left: 0;
+			background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/23618/rip.svg) bottom;
+			background-size:230%;
+		}
+
+		#ref34{
+			font-size:0.414083793255em;
+			width: 85%;
+			top:20em;
+		}
+		#ref34::after {
+			content: "";
+			position: absolute;
+			top: 100%;
+			height: 20px;
+			width: 100%;
+			left: 0;
+			background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/23618/rip.svg) bottom;
+			background-size:210%;
+		}
+
+		#ref35{
+			font-size:0.414083793255em;
+			width: 85%;
+			top:25em;
+		}
+		#ref35::after {
+			content: "";
+			position: absolute;
+			top: 100%;
+			height: 20px;
+			width: 100%;
+			left: 0;
+			background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/23618/rip.svg) bottom;
+			background-size:183%;
+		}
+
+		#ref36{
+			font-size:0.414083793255em;
+			width: 85%;
+			top:30em;
+		}
+		#ref36::after {
+			content: "";
+			position: absolute;
+			top: 100%;
+			height: 20px;
+			width: 100%;
+			left: 0;
+			background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/23618/rip.svg) bottom;
+			background-size:250%;
+		}
+
+		#ref37{
+			font-size:0.414083793255em;
+			width: 85%;
+			top:35em;
+		}
+		#ref37::after {
+			content: "";
+			position: absolute;
+			top: 100%;
+			height: 20px;
+			width: 100%;
+			left: 0;
+			background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/23618/rip.svg) bottom;
+			background-size:138%;
+		}
+
+		#ref38{
+			font-size:0.414083793255em;
+			width: 85%;
+			top:40em;
+		}
+		#ref38::after {
+			content: "";
+			position: absolute;
+			top: 100%;
+			height: 20px;
+			width: 100%;
+			left: 0;
+			background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/23618/rip.svg) bottom;
+			background-size:210%;
+		}
+
+		#ref39{
+			font-size:0.414083793255em;
+			width: 85%;
+			top:45em;
+		}
+		#ref39::after {
+			content: "";
+			position: absolute;
+			top: 100%;
+			height: 20px;
+			width: 100%;
+			left: 0;
+			background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/23618/rip.svg) bottom;
+			background-size:120%;
+		}
+
+		#ref40{
+			font-size:0.414083793255em;
+			width: 85%;
+			top:50em;
+		}
+		#ref40::after {
+			content: "";
+			position: absolute;
+			top: 100%;
+			height: 20px;
+			width: 100%;
+			left: 0;
+			background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/23618/rip.svg) bottom;
+			background-size:195%;
+		}
+
+		#ref41{
+			font-size:0.414083793255em;
+			width: 85%;
+			top:55em;
+		}
+		#ref41::after {
+			content: "";
+			position: absolute;
+			top: 100%;
+			height: 20px;
+			width: 100%;
+			left: 0;
+			background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/23618/rip.svg) bottom;
+			background-size:162%;
+		}
+
+		#ref42{
+			font-size:0.414083793255em;
+			width: 85%;
+			top:60em;
+		}
+		#ref42::after {
+			content: "";
+			position: absolute;
+			top: 100%;
+			height: 20px;
+			width: 100%;
+			left: 0;
+			background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/23618/rip.svg) bottom;
+			background-size:183%;
+		}
+
+		#ref43{
+			font-size:0.414083793255em;
+			width: 85%;
+			top:65em;
+		}
+		#ref43::after {
+			content: "";
+			position: absolute;
+			top: 100%;
+			height: 20px;
+			width: 100%;
+			left: 0;
+			background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/23618/rip.svg) bottom;
+			background-size:230%;
+		}
+
+		#ref44{
+			font-size:0.414083793255em;
+			width: 85%;
+			top:70em;
+		}
+		#ref44::after {
+			content: "";
+			position: absolute;
+			top: 100%;
+			height: 20px;
+			width: 100%;
+			left: 0;
+			background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/23618/rip.svg) bottom;
+			background-size:190%;
+		}
+
+		#ref45{
+			font-size:0.414083793255em;
+			width: 85%;
+			top:75em;
+		}
+		#ref45::after {
+			content: "";
+			position: absolute;
+			top: 100%;
+			height: 20px;
+			width: 100%;
+			left: 0;
+			background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/23618/rip.svg) bottom;
+			background-size:265%;
+		}
+
+		#ref46{
+			font-size:0.414083793255em;
+			width: 85%;
+			top:80em;
+		}
+		#ref46::after {
+			content: "";
+			position: absolute;
+			top: 100%;
+			height: 20px;
+			width: 100%;
+			left: 0;
+			background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/23618/rip.svg) bottom;
+			background-size:120%;
+		}
+
+		#ref47{
+			font-size:0.414083793255em;
+			width: 85%;
+			top:85em;
+		}
+		#ref47::after {
+			content: "";
+			position: absolute;
+			top: 100%;
+			height: 20px;
+			width: 100%;
+			left: 0;
+			background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/23618/rip.svg) bottom;
+			background-size:240%;
+		}
+
+		#ref48{
+			font-size:0.414083793255em;
+			width: 85%;
+			top:90em;
+		}
+		#ref48::after {
+			content: "";
+			position: absolute;
+			top: 100%;
+			height: 20px;
+			width: 100%;
+			left: 0;
+			background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/23618/rip.svg) bottom;
+			background-size:192%;
+		}
+
+		#ref49{
+			font-size:0.414083793255em;
+			width: 85%;
+			top:95em;
+		}
+		#ref49::after {
+			content: "";
+			position: absolute;
+			top: 100%;
+			height: 20px;
+			width: 100%;
+			left: 0;
+			background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/23618/rip.svg) bottom;
+			background-size:150%;
+		}
+
+
+/* C3 YOUTH TO RETIREMENT*/
+
+				#hchapter3{
+					position:relative;
+					display:block;
+					text-align: center;
+					transform: rotate(2deg);
+					padding-top:5em;
+					padding-bottom:5em;
+				}
+
+				.right-divc3 {
+					padding: 1%;
+					width: 20%;
+					background-color: #D8D9D8;
+					height:386.4em;
+				}
+
+		/* C3 IMAGES */
+
+				#fig44{
+				 background-color: white ;
+				 padding: 1em;
+				 float:center;
+				 position: relative;
+				 width:85%;
+				 font-size:0.6em;
+				 text-align:center;
+				 line-height:2.5em;
+				 margin-right:auto;
+				 margin-left:auto;
+				 top:0em;
+				}
+				#fig44::after {
+				 content: "";
+				 position: absolute;
+				 top: 100%;
+				 height: 20px;
+				 width: 100%;
+				 left: 0;
+				 background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/23618/rip.svg) bottom;
+				 background-size:200%;
+				}
+
+				#fig45{
+				 background-color: white ;
+				 padding: 1em;
+				 float:center;
+				 position: relative;
+				 width:38%;
+				 font-size:0.6em;
+				 text-align:center;
+				 line-height:2.5em;
+				 margin-left:1vw;
+				 display:inline-block;
+				 top:5em;
+				}
+				#fig45::after {
+				 content: "";
+				 position: absolute;
+				 top: 100%;
+				 height: 20px;
+				 width: 100%;
+				 left: 0;
+				 background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/23618/rip.svg) bottom;
+				 background-size:200%;
+				}
+
+				#fig46{
+				 background-color: white ;
+				 padding: 1em;
+				 float:center;
+				 position: relative;
+				 width:38%;
+				 font-size:0.6em;
+				 text-align:center;
+				 line-height:2.5em;
+	 		 	 display:inline-block;
+				 top:5em;
+				}
+				#fig46::after {
+				 content: "";
+				 position: absolute;
+				 top: 100%;
+				 height: 20px;
+				 width: 100%;
+				 left: 0;
+				 background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/23618/rip.svg) bottom;
+				 background-size:200%;
+				}
+
+				#fig47{
+				 background-color: white ;
+				 padding: 1em;
+				 float:center;
+				 position: relative;
+				 width:85%;
+				 font-size:0.6em;
+				 text-align:center;
+				 line-height:2.5em;
+				 margin-right:auto;
+				 margin-left:auto;
+				 top:10em;
+				}
+				#fig47::after {
+				 content: "";
+				 position: absolute;
+				 top: 100%;
+				 height: 20px;
+				 width: 100%;
+				 left: 0;
+				 background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/23618/rip.svg) bottom;
+				 background-size:200%;
+				}
+
+				#fig48{
+				 background-color: white ;
+				 padding: 1em;
+				 float:center;
+				 position: relative;
+				 width:85%;
+				 font-size:0.6em;
+				 text-align:center;
+				 line-height:2.5em;
+				 margin-right:auto;
+				 margin-left:auto;
+				 top:15em;
+				}
+				#fig48::after {
+				 content: "";
+				 position: absolute;
+				 top: 100%;
+				 height: 20px;
+				 width: 100%;
+				 left: 0;
+				 background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/23618/rip.svg) bottom;
+				 background-size:200%;
+				}
+
+				#fig49{
+				 background-color: white ;
+				 padding: 1em;
+				 float:center;
+				 position: relative;
+				 width:85%;
+				 font-size:0.6em;
+				 text-align:center;
+				 line-height:2.5em;
+				 margin-right:auto;
+				 margin-left:auto;
+				 top:20em;
+				}
+				#fig49::after {
+				 content: "";
+				 position: absolute;
+				 top: 100%;
+				 height: 20px;
+				 width: 100%;
+				 left: 0;
+				 background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/23618/rip.svg) bottom;
+				 background-size:200%;
+				}
+
+				#fig50{
+				 background-color: white ;
+				 padding: 1em;
+				 float:center;
+				 position: relative;
+				 width:38%;
+				 font-size:0.6em;
+				 text-align:center;
+				 line-height:2.5em;
+				 margin-left:1vw;
+				 top:25em;
+				 display:inline-block;
+				}
+				#fig50::after {
+				 content: "";
+				 position: absolute;
+				 top: 100%;
+				 height: 20px;
+				 width: 100%;
+				 left: 0;
+				 background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/23618/rip.svg) bottom;
+				 background-size:200%;
+				}
+
+				#fig51{
+				 background-color: white ;
+				 padding: 1em;
+				 float:center;
+				 position: relative;
+				 width:38%;
+				 font-size:0.6em;
+				 text-align:center;
+				 line-height:2.5em;
+				 margin-right:auto;
+				 margin-left:auto;
+				 top:25em;
+				 display:inline-block;
+				}
+				#fig51::after {
+				 content: "";
+				 position: absolute;
+				 top: 100%;
+				 height: 20px;
+				 width: 100%;
+				 left: 0;
+				 background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/23618/rip.svg) bottom;
+				 background-size:200%;
+				}
+
+				#fig52{
+				 background-color: white ;
+				 padding: 1em;
+				 float:center;
+				 position: relative;
+				 width:85%;
+				 font-size:0.6em;
+				 text-align:center;
+				 line-height:2.5em;
+				 margin-right:auto;
+				 margin-left:auto;
+				 top:30em;
+				}
+				#fig52::after {
+				 content: "";
+				 position: absolute;
+				 top: 100%;
+				 height: 20px;
+				 width: 100%;
+				 left: 0;
+				 background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/23618/rip.svg) bottom;
+				 background-size:200%;
+				}
+
+				#fig53{
+				 background-color: white ;
+				 padding: 1em;
+				 float:center;
+				 position: relative;
+				 width:85%;
+				 font-size:0.6em;
+				 text-align:center;
+				 line-height:2.5em;
+				 top:35em;
+				 margin-right:auto;
+				 margin-left:auto;
+				}
+				#fig53::after {
+				 content: "";
+				 position: absolute;
+				 top: 100%;
+				 height: 20px;
+				 width: 100%;
+				 left: 0;
+				 background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/23618/rip.svg) bottom;
+				 background-size:200%;
+				}
+
+				#fig54{
+				 background-color: white ;
+				 padding: 1em;
+				 float:center;
+				 position: relative;
+				 width:85%;
+				 font-size:0.6em;
+				 text-align:center;
+				 line-height:2.5em;
+				 margin-right:auto;
+				 margin-left:auto;
+				 top:40em;
+				}
+				#fig54::after {
+				 content: "";
+				 position: absolute;
+				 top: 100%;
+				 height: 20px;
+				 width: 100%;
+				 left: 0;
+				 background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/23618/rip.svg) bottom;
+				 background-size:200%;
+				}
+
+				#fig55{
+				 background-color: white ;
+				 padding: 1em;
+				 float:center;
+				 position: relative;
+				 width:85%;
+				 font-size:0.6em;
+				 text-align:center;
+				 line-height:2.5em;
+				 margin-right:auto;
+				 margin-left:auto;
+				 top:45em;
+				}
+				#fig55::after {
+				 content: "";
+				 position: absolute;
+				 top: 100%;
+				 height: 20px;
+				 width: 100%;
+				 left: 0;
+				 background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/23618/rip.svg) bottom;
+				 background-size:200%;
+				}
+
+				#fig56{
+				 background-color: white ;
+				 padding: 1em;
+				 float:center;
+				 position: relative;
+				 width:85%;
+				 font-size:0.6em;
+				 text-align:center;
+				 line-height:2.5em;
+				 margin-right:auto;
+				 margin-left:auto;
+				 top:50em;
+				}
+				#fig56::after {
+				 content: "";
+				 position: absolute;
+				 top: 100%;
+				 height: 20px;
+				 width: 100%;
+				 left: 0;
+				 background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/23618/rip.svg) bottom;
+				 background-size:200%;
+				}
+
+				#fig57{
+				 background-color: white ;
+				 padding: 1em;
+				 float:center;
+				 position: relative;
+				 width:85%;
+				 font-size:0.6em;
+				 text-align:center;
+				 line-height:2.5em;
+				 top:55em;
+				 margin-right:auto;
+				 margin-left:auto;
+
+				}
+				#fig57::after {
+				 content: "";
+				 position: absolute;
+				 top: 100%;
+				 height: 20px;
+				 width: 100%;
+				 left: 0;
+				 background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/23618/rip.svg) bottom;
+				 background-size:200%;
+				}
+
+				#fig58{
+				 background-color: white ;
+				 padding: 1em;
+				 float:center;
+				 position: relative;
+				 width:85%;
+				 font-size:0.6em;
+				 text-align:center;
+				 line-height:2.5em;
+				 margin-right:auto;
+				 margin-left:auto;
+				 top:60em;
+				}
+				#fig58::after {
+				 content: "";
+				 position: absolute;
+				 top: 100%;
+				 height: 20px;
+				 width: 100%;
+				 left: 0;
+				 background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/23618/rip.svg) bottom;
+				 background-size:200%;
+				}
+
+				#fig59{
+				 background-color: white ;
+				 padding: 1em;
+				 float:center;
+				 position: relative;
+				 width:85%;
+				 font-size:0.6em;
+				 text-align:center;
+				 line-height:2.5em;
+				 margin-right:auto;
+				 margin-left:auto;
+				 top:65em;
+				}
+				#fig59::after {
+				 content: "";
+				 position: absolute;
+				 top: 100%;
+				 height: 20px;
+				 width: 100%;
+				 left: 0;
+				 background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/23618/rip.svg) bottom;
+				 background-size:200%;
+				}
+
+				#fig60{
+				 background-color: white ;
+				 padding: 1em;
+				 float:center;
+				 position: relative;
+				 width:85%;
+				 font-size:0.6em;
+				 text-align:center;
+				 line-height:2.5em;
+				 margin-right:auto;
+				 margin-left:auto;
+				 top:70em;
+				}
+				#fig60::after {
+				 content: "";
+				 position: absolute;
+				 top: 100%;
+				 height: 20px;
+				 width: 100%;
+				 left: 0;
+				 background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/23618/rip.svg) bottom;
+				 background-size:200%;
+				}
+
+				#fig61{
+				 background-color: white ;
+				 padding: 1em;
+				 float:center;
+				 position: relative;
+				 width:85%;
+				 font-size:0.6em;
+				 text-align:center;
+				 line-height:2.5em;
+				 margin-right:auto;
+				 margin-left:auto;
+				 top:75em;
+				}
+				#fig61::after {
+				 content: "";
+				 position: absolute;
+				 top: 100%;
+				 height: 20px;
+				 width: 100%;
+				 left: 0;
+				 background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/23618/rip.svg) bottom;
+				 background-size:200%;
+				}
+
+				#fig62{
+				 background-color: white ;
+				 padding: 1em;
+				 float:center;
+				 position: relative;
+				 width:85%;
+				 font-size:0.6em;
+				 text-align:center;
+				 line-height:2.5em;
+				 margin-right:auto;
+				 margin-left:auto;
+				 top:80em;
+				}
+				#fig62::after {
+				 content: "";
+				 position: absolute;
+				 top: 100%;
+				 height: 20px;
+				 width: 100%;
+				 left: 0;
+				 background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/23618/rip.svg) bottom;
+				 background-size:200%;
+				}
+
+				#fig63{
+				 background-color: white ;
+				 padding: 1em;
+				 float:center;
+				 position: relative;
+				 width:85%;
+				 font-size:0.6em;
+				 text-align:center;
+				 line-height:2.5em;
+				 margin-right:auto;
+				 margin-left:auto;
+				 top:85em;
+				}
+				#fig63::after {
+				 content: "";
+				 position: absolute;
+				 top: 100%;
+				 height: 20px;
+				 width: 100%;
+				 left: 0;
+				 background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/23618/rip.svg) bottom;
+				 background-size:200%;
+				}
+
+
+		/* C3 REFERENCES */
+
+		#ref50{
+			font-size:0.414083793255em;
+			width: 85%;
+			top: 0em;
+		}
+		#ref50::after {
+			content: "";
+			position: absolute;
+			top: 100%;
+			height: 20px;
+			width: 100%;
+			left: 0;
+			background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/23618/rip.svg) bottom;
+			background-size:178%;
+		}
+
+		#ref51{
+			font-size:0.414083793255em;
+			width: 85%;
+			top: 5em;
+		}
+		#ref51::after {
+			content: "";
+			position: absolute;
+			top: 100%;
+			height: 20px;
+			width: 100%;
+			left: 0;
+			background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/23618/rip.svg) bottom;
+			background-size:250%;
+		}
+
+		#ref52{
+			font-size:0.414083793255em;
+			width: 85%;
+			top:10em;
+		}
+		#ref52::after {
+			content: "";
+			position: absolute;
+			top: 100%;
+			height: 20px;
+			width: 100%;
+			left: 0;
+			background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/23618/rip.svg) bottom;
+			background-size:148%;
+		}
+
+		#ref53{
+			font-size:0.414083793255em;
+			width: 85%;
+			top:15em;
+		}
+		#ref53::after {
+			content: "";
+			position: absolute;
+			top: 100%;
+			height: 20px;
+			width: 100%;
+			left: 0;
+			background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/23618/rip.svg) bottom;
+			background-size:230%;
+		}
+
+		#ref54{
+			font-size:0.414083793255em;
+			width: 85%;
+			top:20em;
+		}
+		#ref54::after {
+			content: "";
+			position: absolute;
+			top: 100%;
+			height: 20px;
+			width: 100%;
+			left: 0;
+			background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/23618/rip.svg) bottom;
+			background-size:210%;
+		}
+
+		#ref55{
+			font-size:0.414083793255em;
+			width: 85%;
+			top:25em;
+		}
+		#ref55::after {
+			content: "";
+			position: absolute;
+			top: 100%;
+			height: 20px;
+			width: 100%;
+			left: 0;
+			background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/23618/rip.svg) bottom;
+			background-size:183%;
+		}
+
+		#ref56{
+			font-size:0.414083793255em;
+			width: 85%;
+			top:30em;
+		}
+		#ref56::after {
+			content: "";
+			position: absolute;
+			top: 100%;
+			height: 20px;
+			width: 100%;
+			left: 0;
+			background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/23618/rip.svg) bottom;
+			background-size:250%;
+		}
+
+		#ref57{
+			font-size:0.414083793255em;
+			width: 85%;
+			top:35em;
+		}
+		#ref57::after {
+			content: "";
+			position: absolute;
+			top: 100%;
+			height: 20px;
+			width: 100%;
+			left: 0;
+			background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/23618/rip.svg) bottom;
+			background-size:138%;
+		}
+
+		#ref58{
+			font-size:0.414083793255em;
+			width: 85%;
+			top:40em;
+		}
+		#ref58::after {
+			content: "";
+			position: absolute;
+			top: 100%;
+			height: 20px;
+			width: 100%;
+			left: 0;
+			background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/23618/rip.svg) bottom;
+			background-size:210%;
+		}
+
+		#ref59{
+			font-size:0.414083793255em;
+			width: 85%;
+			top:45em;
+		}
+		#ref59::after {
+			content: "";
+			position: absolute;
+			top: 100%;
+			height: 20px;
+			width: 100%;
+			left: 0;
+			background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/23618/rip.svg) bottom;
+			background-size:120%;
+		}
+
+		#ref60{
+			font-size:0.414083793255em;
+			width: 85%;
+			top:50em;
+		}
+		#ref60::after {
+			content: "";
+			position: absolute;
+			top: 100%;
+			height: 20px;
+			width: 100%;
+			left: 0;
+			background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/23618/rip.svg) bottom;
+			background-size:195%;
+		}
+
+		#ref61{
+			font-size:0.414083793255em;
+			width: 85%;
+			top:55em;
+		}
+		#ref61::after {
+			content: "";
+			position: absolute;
+			top: 100%;
+			height: 20px;
+			width: 100%;
+			left: 0;
+			background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/23618/rip.svg) bottom;
+			background-size:162%;
+		}
+
+		#ref62{
+			font-size:0.414083793255em;
+			width: 85%;
+			top:60em;
+		}
+		#ref62::after {
+			content: "";
+			position: absolute;
+			top: 100%;
+			height: 20px;
+			width: 100%;
+			left: 0;
+			background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/23618/rip.svg) bottom;
+			background-size:183%;
+		}
+
+		#ref63{
+			font-size:0.414083793255em;
+			width: 85%;
+			top:65em;
+		}
+		#ref63::after {
+			content: "";
+			position: absolute;
+			top: 100%;
+			height: 20px;
+			width: 100%;
+			left: 0;
+			background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/23618/rip.svg) bottom;
+			background-size:230%;
+		}
+
+		#ref64{
+			font-size:0.414083793255em;
+			width: 85%;
+			top:70em;
+		}
+		#ref64::after {
+			content: "";
+			position: absolute;
+			top: 100%;
+			height: 20px;
+			width: 100%;
+			left: 0;
+			background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/23618/rip.svg) bottom;
+			background-size:190%;
+		}
+
+		#ref65{
+			font-size:0.414083793255em;
+			width: 85%;
+			top:75em;
+		}
+		#ref65::after {
+			content: "";
+			position: absolute;
+			top: 100%;
+			height: 20px;
+			width: 100%;
+			left: 0;
+			background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/23618/rip.svg) bottom;
+			background-size:265%;
+		}
+
+		#ref66{
+			font-size:0.414083793255em;
+			width: 85%;
+			top:80em;
+		}
+		#ref66::after {
+			content: "";
+			position: absolute;
+			top: 100%;
+			height: 20px;
+			width: 100%;
+			left: 0;
+			background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/23618/rip.svg) bottom;
+			background-size:120%;
+		}
+
+		#ref67{
+			font-size:0.414083793255em;
+			width: 85%;
+			top:85em;
+		}
+		#ref67::after {
+			content: "";
+			position: absolute;
+			top: 100%;
+			height: 20px;
+			width: 100%;
+			left: 0;
+			background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/23618/rip.svg) bottom;
+			background-size:240%;
+		}
+
+		#ref68{
+			font-size:0.414083793255em;
+			width: 85%;
+			top:90em;
+		}
+		#ref68::after {
+			content: "";
+			position: absolute;
+			top: 100%;
+			height: 20px;
+			width: 100%;
+			left: 0;
+			background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/23618/rip.svg) bottom;
+			background-size:192%;
+		}
+
+
+/* CONC + BIB */
+
+		#hbib{
+			position:relative;
+			margin-right:auto;
+			margin-left:auto;
+			text-align:center;
+			transform: rotate(2deg);
+			padding:5em;
+			padding-top:6em;
+		}
+
+		#hconc{
+			position:relative;
+			margin-right:auto;
+			margin-left:auto;
+			text-align:center;
+			transform: rotate(2deg);
+			padding:5em;
+			padding-top:6em;
+		}
+
+
+		@media only screen and (max-width: 880px) {
+
+
+			.navig{
+				width:100%;
+				margin-top:0vw;
+			}
+
+			.left-div-navig {
+				position:relative;
+				display:block;
+				margin-left:0;
+				width:100%;
+				background-color:white;
+				height:38vw;
+			text-align: center;
+			font-size: 3vw;
+			}
+
+			.middle-div-navig {
+				width: 100%;
+				background-color: white;
+				height:27vw;
+				position:relative;
+				display:block;
+				text-align: center;
+				font-size: 3vw;
+			}
+
+
+			.right-div-navig {
+				width: 100%;
+				background-color:white;
+				height:43.5vw;
+				position:relative;
+				display:block;
+				text-align: center;
+				font-size: 3vw;
+			}
+
+
+
+			nvgh{
+			display:inline;
+			margin-top:1em;
+			width:50%;
+
+			font-family:'IBMPlexMono-Light';
+			color:white;
+			background-color:#00C105;
+			font-size:1em;
+			padding: 0.266em;
+			line-height: 1.82em;
+			letter-spacing:0.05em;
+			}
+
+			nvbh{
+			display:inline;
+			margin-top:1em;
+			width:50%;
+
+			font-family:'IBMPlexMono-Light';
+			color:white;
+			background-color:#004FFF;
+			font-size:1em;
+			padding: 0.266em;
+			line-height: 1.82em;
+			letter-spacing:0.05em;
+			}
+
+			nvrh{
+			display:inline;
+			margin-top:1em;
+			width:50%;
+
+			font-family:'IBMPlexMono-Light';
+			color:white;
+			background-color:#DD000B;
+			font-size:1em;
+			padding: 0.266em;
+			line-height: 1.82em;
+			letter-spacing:0.05em;
+			}
+
+			nvyh{
+			display:inline;
+			margin-top:1em;
+			width:50%;
+
+			font-family:'IBMPlexMono-Light';
+			color:#333333;
+			background-color:#FFDA00;
+			font-size:1em;
+			padding: 0.266em;
+			line-height: 1.82em;
+			letter-spacing:0.05em;
+			}
+
+
+
+			.navigb{
+				width:100%;
+				margin-top:5vw;
+			}
+
+			.full-div-navig {
+				position:relative;
+				display:block;
+				margin-left:0vw;
+				width:100%;
+				background-color:white;
+				height:21.5vw;
+			text-align: center;
+			font-size:3vw;
+			}
+
+			.naviga{
+				width:100%;
+				margin-top:0vw;
+			}
+
+			.full-div-naviga {
+				position:relative;
+				display:block;
+				width:100%;
+				margin-left:0vw;
+				background-color:white;
+				height:10.5vw;
+			text-align: center;
+			font-size:3vw;
+			}
+
+
+
+
+
+
+/* FRONT GRAPHIC */
+
+			.navigation{
+				position:relative;
+				display:block;
+				width:100%;
+				top:12.5vw;
+			}
+
+			.left-div-navigation {
+				position:relative;
+				display:block;
+				margin-left:10vw;
+				width:80%;
+				background-color: white;
+				height:120vw;
+			}
+
+			.middle-div-navigation {
+				width: 80%;
+				margin-left:10vw;
+				background-color: white;
+				height:120vw;
+				position:relative;
+				/* box-shadow: 0 0 0 1vw #DD000B; */
+			}
+
+			.right-div-navigation {
+				width: 100%;
+				background-color: white;
+				height:40vw;
+			}
+
+			/* C1 NAV */
+
+
+			#bluenav{
+				display:block;
+				position:relative;
+				background-color: white;
+				width:80vw;
+				height:120vw;
+				left: 0;
+				right: 0;
+				top:0;
+				margin-left: auto;
+				margin-right: auto;
+				float:center;
+				text-align: center;
+				box-shadow: 0 0 0 4vw #004FFF inset;
+				text-align: center;
+			}
+
+			#bluenav::after {
+				content: "";
+				position: absolute;
+				display:block;
+				top: 0;
+				height: 10px;
+				width: 101.5%;
+				left: 0;
+				right: 0;
+				margin-left: auto;
+				margin-right: -0.1vw;
+				background: url("./ripg.svg") bottom;
+				background-size:310%;
+				color:black;
+			}
+
+			#c1h{
+				width:30vw;
+				display:block;
+				position:relative;
+				bottom:1vw;
+				right: 0;
+				left:0;
+				margin-left: auto;
+				margin-right: auto;
+				float:center;
+
+			}
+
+			conav{
+			 font-family:'Arial-Narrow';
+				background-color: #D8D9D8;
+				color: white;
+				display:inline;
+				font-size:25vw;
+				}
+
+			hnav{
+			 font-family:'Arial-Narrow';
+			 background-color: #004FFF;
+			 display:inline;
+			 font-size:8vw;
+			 color:white;
+				 }
+
+			#sc1, #sc2, #sc3, #sc4, #sc5, #sc6{
+				position:relative;
+				bottom:6.7vw;
+				right: 0;
+				left:0;
+				margin-left: auto;
+				margin-right: auto;
+				float:center;
+			}
+
+
+			/* C2 NAV */
+
+			#yellownav{
+				display:block;
+				position:relative;
+				background-color: #FFDA00;
+				width:80vw;
+				height:120vw;
+				left: 0;
+				right: 0;
+				top:0;
+				margin-left: auto;
+				margin-right: auto;
+				float:center;
+				text-align: left;
+			}
+
+
+			#whitesq{
+				display:block;
+				position:relative;
+				background-color: white;
+				width:60vw;
+				height:81.5vw;
+				left: 0;
+				right: 0;
+				top:10vw;
+				margin-left: auto;
+				margin-right: auto;
+				float:center;
+				text-align: left;
+			}
+
+			#whitesq::after {
+				content: "";
+				position: absolute;
+				display:block;
+				top: 0;
+				height: 10px;
+				width: 101.5%;
+				left: 0;
+				right: 0;
+				margin-left: auto;
+				margin-right: -0.1vw;
+				background: url("./ripy.svg") bottom;
+				background-size:310%;
+				color:black;
+			}
+
+			#c2h{
+				width:30vw;
+				display:block;
+				position:relative;
+				bottom:0;
+				right: 0;
+				left:0;
+				margin-left: auto;
+				margin-right: auto;
+				float:center;
+			text-align: center;
+			}
+
+			bnav{
+			 font-family:'Arial-Narrow';
+				background-color: white;
+				color: black;
+				display:inline;
+				font-size:25vw;
+				}
+
+			binav{
+			 font-family:'Arial-Narrow';
+			 background-color: white;
+			 display:inline;
+			 font-size:8vw;
+			 color:black;
+				 }
+
+			#sc7, #sc8, #sc9, #sc10{
+				position:relative;
+				bottom:0;
+				right: 0;
+				left:0;
+				margin-left: 0.5vw;
+				margin-right: auto;
+				float:center;
+			}
+
+
+
+
+
+
+
+
+
+
+
+			pi{
+		 		font-family:'MinionPro-Regular';
+		 		color: #FFD600;
+		 		font-size:24vw;
+			}
+
+		 	#VS{
+			 	padding-top:5.4vw;
+			 	width:80%;
+			 	height:30vw;
+			 	position: relative;
+			 	display:block;
+			 	margin-right:auto;
+			 	margin-left:auto;
+			 	text-align:center;
+			 	background-color:white;
+			 	line-height:13vw;
+		 	}
+
+			#htitleblue{
+				position:absolute;
+				display:block;
+				text-align: center;
+				transform: rotate(-5deg);
+				top:8vw;
+				left: 0;
+				right: 0;
+				margin-left: auto;
+				margin-right: auto;
+			}
+
+			pv{
+				font-family:'Arial-Narrow';
+				background-color: #004FFF;
+				color: white;
+				display:inline;
+				font-size:19.5vw;
+			}
+
+			/* TOOLS */
+
+			.left-div-nav {
+				width: 100%;
+				height:100vw;
+				top:-5vw;
+				position: relative;
+				display: block;
+			}
+
+			#w-square{
+				display:block;
+				position:absolute;
+				background-color: white;
+				width:80vw;
+				height:80vw;
+				left: 0;
+				right: 0;
+				/* margin-left: auto;
+				margin-right: auto; */
+				float:left;
+			}
+
+			#g-square{
+				display:block;
+				position:absolute;
+				background-color: #00C105;
+				width:55vw;
+				height:55vw;
+				left: 0;
+				right: 0;
+				top:12vw;
+				margin-left: auto;
+				margin-right: auto;
+				transform: rotate(45deg);
+			}
+
+			#g-square::after {
+				content: "";
+				position: absolute;
+				display:block;
+				top: -0.5%;
+				height: 10px;
+				width: 101.5%;
+				left: 0;
+				right: 0;
+				margin-left: auto;
+				margin-right: -0.1vw;
+				background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/23618/rip.svg") bottom;
+				background-size:500%;
+				color:black;
+			}
+
+			#ws-square{
+				display:block;
+				position:absolute;
+				background-color: white;
+				/* border: 0.3vw;
+				border-style: solid;
+				border-color: #D8D9D8; */
+				width:37vw;
+				height:37vw;
+				left: 0;
+				right: 0;
+				top: 0;
+				bottom: 0;
+				margin-top:auto;
+				margin-bottom:auto;
+				margin-left: auto;
+				margin-right: auto;
+			}
+
+			#t{
+				transform: rotate(-45deg);
+				width:27vw;
+				height:27vw;
+				display:block;
+				position:absolute;
+				left: 0;
+				right: 0;
+				top: 0;
+				bottom: 0;
+				margin-top:auto;
+				margin-bottom:14vw;
+				margin-left: auto;
+				margin-right: 26.5vw;
+				font-size:71vw;
+			}
+
+			pt{
+			font-family:'MinionPro-Regular';
+			color: #D8D9D8;
+				}
+
+
+				.ools{
+					position:absolute;
+					display:block;
+					width:auto;
+					height:auto;
+					margin-top:39vw;
+					right:0;
+					left:0;
+					text-align: center;
+				}
+
+					ho{
+					 font-family:'Arial-Narrow';
+						background-color: white;
+						color: black;
+						display:inline;
+						font-size:19.5vw;
+						}
+
+
+
+
+
+						/* TOTAL */
+
+						.middle-div-nav {
+							width: 80%;
+							height:50vw;
+							top:-14vw;
+							position: relative;
+							display: block;
+							margin-left: auto;
+							margin-right: auto;
+						}
+
+						#wh-square{
+							position: relative;
+							display:block;
+							background-color: white;
+							width:80vw;
+							top:2vw;
+							/* margin-left: auto;
+							margin-right: auto; */
+							float:center;
+						}
+
+
+
+						.total{
+							position: absolute;
+							display:block;
+							margin-left: auto;
+							margin-right: auto;
+							top:-2.5vw;
+							right:0;
+							left:0;
+							text-align: center;
+						}
+
+						pto{
+						 font-family:'MinionPro-Regular';
+							color: #DD000B;
+							font-size:25vw;
+
+							}
+
+							.question{
+								position:absolute;
+								display:block;
+								width:auto;
+								height:auto;
+								top:20vw;
+								margin-bottom:auto;
+								right:0;
+								left:0;
+								text-align: center;
+								background-color: #D8D9D8;
+								box-shadow: 0 0 0 4vw white inset
+							}
+
+							.question::after {
+								content: "";
+								position: absolute;
+								display:block;
+								top: 0.3vw;
+								height: 22px;
+								width: 102%;
+								left: 0;
+								right: 0;
+								margin-left: auto;
+								margin-right: -0.1vw;
+								background: url("./ripgi.svg") bottom;
+								background-size:280%;
+								color:black;
+								transform:rotate(180deg);
+							}
+
+								que{
+								 font-family:'Arial-Narrow';
+									color:white;
+									font-size:50vw;
+									}
+
+
+
+
+									/* CONTROL */
+
+									.right-div-nav {
+										width: 80%;
+										height:100vw;
+										top:27vw;
+										position: relative;
+										display: block;
+										margin-left: auto;
+										margin-right: auto;
+										background-color: yellow;
+									}
+
+									#blu-square{
+										display:block;
+										position:absolute;
+										background-color: #004FFF;
+										width:80vw;
+										height:80vw;
+										left: 0vw;
+										right: 0;
+										top:0;
+										margin-left: auto;
+										margin-right:auto;
+										border-radius: 80vw;
+									}
+
+									#white-square{
+										display:block;
+										position:relative;
+										background-color: white;
+										width:80vw;
+										height:80vw;
+										left: 0;
+										right: 0;
+										top:0;
+										margin-left: auto;
+										margin-right:auto;
+									}
+
+									#whi-square{
+										display:block;
+										position:relative;
+										background-color: white;
+										width:80vw;
+										height:20vw;
+										left: 0;
+										right: 0;
+										top:0vw;
+										margin-left: auto;
+										margin-right:auto;
+										float:right;
+
+									}
+
+									#whi-square::after {
+										content: "";
+										position: absolute;
+										display:block;
+										top: 0;
+										height: 10px;
+										width: 101.5%;
+										left: 0;
+										right: 0;
+										margin-left: auto;
+										margin-right: -0.1vw;
+										background: url("./ripg.svg") bottom;
+										background-size:350%;
+										color:black;
+									}
+
+									.ntrol{
+										position: absolute;
+										display:block;
+										top:-0.95vw;
+										right:0;
+										left:0;
+										text-align: center;
+
+									}
+
+									pnt{
+										font-family:'MinionPro-Regular';
+										color: #004FFF;
+										font-size:24vw;
+										}
+
+										.co{
+											position:absolute;
+											display:block;
+											top:11vw;
+											bottom: 0;
+											left:0;
+											right:0;
+											margin-right: auto;
+											margin-left: auto;
+											text-align: center;
+										}
+
+										co{
+										 font-family:'Arial-Narrow';
+											background-color: white;
+											color: black;
+											display:inline;
+											font-size:50vw;
+											}
+
+
+
+											.name{
+												width:100%;
+												margin-top:39vw;
+											}
+.left-div-name {
+	width:100%;
+	height:10vw;
+	text-align:center;
+	margin-left:0vw !important;
+	font-size: 3vw;
+}
+.middle-div-name {
+	width:100%;
+	height:10vw;
+	text-align:center;
+	font-size: 3vw;
+}
+.right-div-name {
+	width:100%;
+	height:10vw;
+	text-align:center;
+	font-size: 3vw;
+}
+
+.desc-div {
+	top:0vw;
+	width:100%;
+	height:26vw;
+	text-align:center;
+	font-size: 3vw;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+			.dec{
+			flex-wrap: wrap;
+    }
+
+      .left-div {
+			display:none;
+		}
+
+      .middle-div {
+			width: 100%;
+		}
+      .right-div {
+			width: 100%;
+			padding-top:0.15em;
+
+			padding-bottom:7.5em;
+			font-size: 1.7em;
+		}
+
+			.right-divint {
+			width: 100%;
+			padding-top:0.15em;
+			padding-bottom:7.5em;
+			font-size: 1.7em;
+			height: 8em!important;
+		}
+
+			.right-divc1 {
+			width: 100%;
+			padding-top:1em;
+			padding-bottom:7.5em;
+			font-size: 1.7em;
+			height: 87.5em!important;
+		}
+
+			.right-divc2 {
+				width: 100%;
+				padding-top:1em;
+				padding-bottom:7.5em;
+				font-size: 1.7em;
+				height: 65em!important;
+			}
+
+			.right-divc3 {
+				width: 100%;
+				padding-top:1em;
+				padding-bottom:7.5em;
+				font-size: 1.7em;
+				height: 67.7em!important;
+			}
+
+
+			.refmob{
+				margin-bottom: -2em !important;
+				width:86% !important;
+				position:relative !important;
+				font-size: 0.45em !important;
+			}
+
+			.refsticky{
+				position:relative !important;
+			}
+
+			#fig8, #fig9, #fig16, #fig20, #fig24, #fig26, #fig27, #fig45, #fig46, #fig50, #fig51{
+				width:75% !important;
+				margin-right:auto !important;
+				margin-left:auto !important;
+
+			}
+
+			.figmob{
+				display:block !important;
+				width:75% !important;
+				top:2em !important;
+				margin-bottom:4em !important;
+				font-size: 0.8em !important;
+				line-height: 1.8em !important;
+			}
+
+			.sfigmob{
+				display:block !important;
+			}
+
+			.full-div {
+				width: 100%;
+			}
+
+			header{
+ 				background-color:#D8D9D8;
+ 				padding: 10px;
+ 			}
+
+			html{
+	 			background-color:#D8D9D8;
+	 		}
+
+			h5{
+		 		font-family:'Arial-Narrow';
+		 		background-color: white;
+		 		color: black;
+		 		display:inline;
+		 		font-size:7em;
+			}
+
+	  	hg{
+	 	 		font-family:'Arial-Narrow';
+	 	 		background-color: #00B700;
+	 	 		color: white;
+	 	 		display:inline;
+	 	 		font-size:5em;
+	 		}
+
+			pc{
+				font-family:'Arial-Narrow';
+				background-color: #004FFF;
+				color: white;
+				display:inline;
+		 	 	font-size:5em;
+			}
+
+			hw{
+	 	 	 	font-family:'Arial-Narrow';
+	 	 	 	background-color: white;
+	 	 	 	color:black;
+	 	 	 	display:inline;
+	 	 	 	font-size:5em;
+	 	 	}
+
+			pb{
+				font-family:'Arial-Narrow';
+				background-color: #FFD600;
+				color: black;
+				display:inline;
+				font-size:5em;
+			}
+
+			py{
+				font-family:'Arial-Narrow';
+				background-color: #D10000;
+				color: white;
+				display:inline;
+				font-size:5em;
+			}
+
+			#bodymobile{
+				width:90%;
+				font-size:1em;
+				margin-left:auto;
+				margin-right: auto;
+		  }
+
+			#intro-right{
+				display:none;
+			}
+
+			#intro-left{
+				display:none;
+			}
+
+			p{
+		 	  display:inline;
+		 	  margin-top:1em;
+		 	  width:50%;
+
+		 	  font-family:'IBMPlexMono-ExtraLight';
+		 	  color:#333333;
+		 	  background-color:white;
+		 	  font-size:0.8em;
+		 	  padding: 0.24em;
+		 	  line-height: 1.812em;
+		 	  letter-spacing:0.05em;
+		 	}
+
+			pgb{
+			display:inline;
+			margin-top:1em;
+			width:50%;
+
+			font-family:'IBMPlexMono-ExtraLight';
+			color:#333333;
+			background-color:#D8D9D8;
+			font-size:3vw;
+			padding: 0.266em;
+			line-height: 1.82em;
+			letter-spacing:0.05em;
+			}
+
+			pbo{
+			display:inline;
+			margin-top:1em;
+			width:50%;
+
+			font-family:'IBMPlexMono-Light';
+			color:#333333;
+			background-color:#D8D9D8;
+			font-size:3vw;
+			padding: 0.266em;
+			line-height: 1.82em;
+			letter-spacing:0.05em;
+			}
+
+		 	#habstract{
+ 				position:relative !important;
+ 				margin-right:auto !important;
+  	 	 	margin-left:auto !important;
+ 				text-align:center !important;
+ 				transform: rotate(2deg);
+				margin-top:10vw !important;
+				margin-bottom:1em !important;
+				padding:0em !important;
+ 			}
+
+			#hintro{
+				position:relative;
+				margin-right:auto;
+				margin-left:auto;
+				text-align:center;
+				transform: rotate(-2deg);
+				padding-top:1em;
+				padding-bottom:1em;
+			}
+
+			#hconc{
+		 		position:relative;
+		 		margin-right:auto !important;
+		 		margin-left:auto !important;
+		 		text-align:center !important;
+				margin-top:1em !important;
+				margin-bottom:1em !important;
+				padding:0em !important;
+	 		}
+
+	 		#hbib{
+				position:relative;
+				margin-right:auto !important;
+				margin-left:auto !important;
+				text-align:center;
+				transform: rotate(2deg);
+				margin-top:3em !important;
+				margin-bottom:1em !important;
+				padding:0em !important;
+			}
+
+		 	#hchapter1{
+			 	position:relative;
+			 	display:block;
+			 	text-align: center;
+			 	transform: rotate(2deg);
+			 	padding-top:1em;
+			 	padding-bottom:1em;
+		 	}
+
+		 	#hchapter2{
+				position:relative;
+				display:block;
+				text-align: center;
+				transform: rotate(-2deg);
+				padding-top:1em;
+				padding-bottom:1em;
+			}
+
+			#hchapter3{
+ 				position:relative;
+ 				display:block;
+ 				text-align: center;
+ 				transform: rotate(-2deg);
+ 				padding-top:1em;
+ 				padding-bottom:1em;
+ 			}
+
+			body {
+			 margin:0em;
+			 max-width: 100%;
+			 overflow-x: hidden;
+				 }
+
+			html{
+			 background-color:#D8D9D8;
+			 overflow-x: hidden;
+			 max-width: 100%;
+
+		}
