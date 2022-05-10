@@ -251,10 +251,11 @@ src: url('IBMPlexMono-LightItalic.eot?#iefix') format('embedded-opentype'),
 	 body {
 	 	margin:0em;
 		max-width: 100% !important;
+
 	 		}
 
 	 html{
-		background-color:#D8D9D8;
+		background-color:#D8D9D8 !important;
 		max-width: 100% !important;
 		cursor:text;
 			}
